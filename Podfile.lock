@@ -1,0 +1,29 @@
+PODS:
+  - Kingfisher (4.9.0)
+  - RxSwift (4.2.0)
+
+DEPENDENCIES:
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift`)
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :git: https://github.com/onevcat/Kingfisher
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: b6d83f8520a81996738b40d3cbfdad939ceab2b3
+    :git: https://github.com/onevcat/Kingfisher
+  RxSwift:
+    :commit: d158e7700655114e990313948d2de561d50e1115
+    :git: https://github.com/ReactiveX/RxSwift
+
+SPEC CHECKSUMS:
+  Kingfisher: 64539b51826b778206daa6ed815d12653caa69dd
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+
+PODFILE CHECKSUM: 22abf0380f10a2d01733825d98e181b344b00f2b
+
+COCOAPODS: 1.5.0

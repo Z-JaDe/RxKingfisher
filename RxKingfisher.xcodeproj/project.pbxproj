@@ -13,6 +13,13 @@
 		C989A31A213FBFE600E64AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C989A319213FBFE600E64AD8 /* Assets.xcassets */; };
 		C989A31D213FBFE600E64AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C989A31B213FBFE600E64AD8 /* LaunchScreen.storyboard */; };
 		C989A328213FBFE600E64AD8 /* RxKingfisherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A327213FBFE600E64AD8 /* RxKingfisherUITests.swift */; };
+		C989A334213FC16700E64AD8 /* RxKingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A333213FC16700E64AD8 /* RxKingfisher.swift */; };
+		C989A336213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A335213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift */; };
+		C989A338213FCFFD00E64AD8 /* OptionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A337213FCFFD00E64AD8 /* OptionInfo.swift */; };
+		C989A33B213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A33A213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift */; };
+		C989A33D213FE14F00E64AD8 /* Kingfisher+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A33C213FE14F00E64AD8 /* Kingfisher+View.swift */; };
+		C989A340213FFEC400E64AD8 /* RxKingfisher.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C989A33F213FFEC400E64AD8 /* RxKingfisher.podspec */; };
+		E89D66B9BA22449AC0536E9E /* Pods_CommonPods_RxKingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFAE9335B3A9C2F9489D9F7 /* Pods_CommonPods_RxKingfisher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1681D9E02741D98D54EF77D5 /* Pods-CommonPods-RxKingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-RxKingfisher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher.debug.xcconfig"; sourceTree = "<group>"; };
+		2DBD3ABD3FBCB5FEDDDFE671 /* Pods-CommonPods-RxKingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-RxKingfisher.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher.release.xcconfig"; sourceTree = "<group>"; };
+		4BFAE9335B3A9C2F9489D9F7 /* Pods_CommonPods_RxKingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_RxKingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C989A30F213FBFE300E64AD8 /* RxKingfisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxKingfisher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C989A312213FBFE300E64AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C989A314213FBFE300E64AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +46,12 @@
 		C989A323213FBFE600E64AD8 /* RxKingfisherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxKingfisherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C989A327213FBFE600E64AD8 /* RxKingfisherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxKingfisherUITests.swift; sourceTree = "<group>"; };
 		C989A329213FBFE600E64AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C989A333213FC16700E64AD8 /* RxKingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxKingfisher.swift; sourceTree = "<group>"; };
+		C989A335213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kingfisher+KingfisherOptionInfo.swift"; sourceTree = "<group>"; };
+		C989A337213FCFFD00E64AD8 /* OptionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionInfo.swift; sourceTree = "<group>"; };
+		C989A33A213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherOptionInfoProtocol.swift; sourceTree = "<group>"; };
+		C989A33C213FE14F00E64AD8 /* Kingfisher+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kingfisher+View.swift"; sourceTree = "<group>"; };
+		C989A33F213FFEC400E64AD8 /* RxKingfisher.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RxKingfisher.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89D66B9BA22449AC0536E9E /* Pods_CommonPods_RxKingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +73,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D9F4826DD4CC98F069B475E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1681D9E02741D98D54EF77D5 /* Pods-CommonPods-RxKingfisher.debug.xcconfig */,
+				2DBD3ABD3FBCB5FEDDDFE671 /* Pods-CommonPods-RxKingfisher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C989A306213FBFE300E64AD8 = {
 			isa = PBXGroup;
 			children = (
+				C989A33F213FFEC400E64AD8 /* RxKingfisher.podspec */,
+				C989A332213FC11C00E64AD8 /* Sources */,
 				C989A311213FBFE300E64AD8 /* RxKingfisher */,
 				C989A326213FBFE600E64AD8 /* RxKingfisherUITests */,
 				C989A310213FBFE300E64AD8 /* Products */,
+				7D9F4826DD4CC98F069B475E /* Pods */,
+				D5785D06668ECB1BE931D552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +126,42 @@
 			path = RxKingfisherUITests;
 			sourceTree = "<group>";
 		};
+		C989A332213FC11C00E64AD8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C989A33E213FF5E300E64AD8 /* RxSwift */,
+				C989A339213FD22600E64AD8 /* Core */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C989A339213FD22600E64AD8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C989A335213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift */,
+				C989A33C213FE14F00E64AD8 /* Kingfisher+View.swift */,
+				C989A337213FCFFD00E64AD8 /* OptionInfo.swift */,
+				C989A33A213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C989A33E213FF5E300E64AD8 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C989A333213FC16700E64AD8 /* RxKingfisher.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		D5785D06668ECB1BE931D552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BFAE9335B3A9C2F9489D9F7 /* Pods_CommonPods_RxKingfisher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C989A32C213FBFE600E64AD8 /* Build configuration list for PBXNativeTarget "RxKingfisher" */;
 			buildPhases = (
+				B4C2B72B4A17711BAF2689D1 /* [CP] Check Pods Manifest.lock */,
 				C989A30B213FBFE300E64AD8 /* Sources */,
 				C989A30C213FBFE300E64AD8 /* Frameworks */,
 				C989A30D213FBFE300E64AD8 /* Resources */,
+				E5550B8A9CBE32CCB73C47C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C989A340213FFEC400E64AD8 /* RxKingfisher.podspec in Resources */,
 				C989A31D213FBFE600E64AD8 /* LaunchScreen.storyboard in Resources */,
 				C989A31A213FBFE600E64AD8 /* Assets.xcassets in Resources */,
 				C989A318213FBFE300E64AD8 /* Main.storyboard in Resources */,
@@ -192,13 +261,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4C2B72B4A17711BAF2689D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-RxKingfisher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5550B8A9CBE32CCB73C47C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C989A30B213FBFE300E64AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C989A33D213FE14F00E64AD8 /* Kingfisher+View.swift in Sources */,
+				C989A334213FC16700E64AD8 /* RxKingfisher.swift in Sources */,
 				C989A315213FBFE300E64AD8 /* ViewController.swift in Sources */,
+				C989A33B213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift in Sources */,
 				C989A313213FBFE300E64AD8 /* AppDelegate.swift in Sources */,
+				C989A338213FCFFD00E64AD8 /* OptionInfo.swift in Sources */,
+				C989A336213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +471,13 @@
 		};
 		C989A32D213FBFE600E64AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1681D9E02741D98D54EF77D5 /* Pods-CommonPods-RxKingfisher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG2ZSL4NR6;
 				INFOPLIST_FILE = RxKingfisher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,11 +491,13 @@
 		};
 		C989A32E213FBFE600E64AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBD3ABD3FBCB5FEDDDFE671 /* Pods-CommonPods-RxKingfisher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG2ZSL4NR6;
 				INFOPLIST_FILE = RxKingfisher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
