@@ -16,9 +16,11 @@
 		C989A334213FC16700E64AD8 /* RxKingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A333213FC16700E64AD8 /* RxKingfisher.swift */; };
 		C989A336213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A335213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift */; };
 		C989A338213FCFFD00E64AD8 /* OptionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A337213FCFFD00E64AD8 /* OptionInfo.swift */; };
-		C989A33B213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A33A213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift */; };
+		C989A33B213FDF1A00E64AD8 /* KingfisherOptionCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A33A213FDF1A00E64AD8 /* KingfisherOptionCompatible.swift */; };
 		C989A33D213FE14F00E64AD8 /* Kingfisher+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A33C213FE14F00E64AD8 /* Kingfisher+View.swift */; };
-		C989A340213FFEC400E64AD8 /* RxKingfisher.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C989A33F213FFEC400E64AD8 /* RxKingfisher.podspec */; };
+		C989A340213FFEC400E64AD8 /* Rx+Kingfisher.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C989A33F213FFEC400E64AD8 /* Rx+Kingfisher.podspec */; };
+		C989A34A214030D400E64AD8 /* ViewCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A349214030D400E64AD8 /* ViewCompatible.swift */; };
+		C989A34C2140315D00E64AD8 /* ManagerCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A34B2140315D00E64AD8 /* ManagerCompatible.swift */; };
 		E89D66B9BA22449AC0536E9E /* Pods_CommonPods_RxKingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFAE9335B3A9C2F9489D9F7 /* Pods_CommonPods_RxKingfisher.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,9 +51,11 @@
 		C989A333213FC16700E64AD8 /* RxKingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxKingfisher.swift; sourceTree = "<group>"; };
 		C989A335213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kingfisher+KingfisherOptionInfo.swift"; sourceTree = "<group>"; };
 		C989A337213FCFFD00E64AD8 /* OptionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionInfo.swift; sourceTree = "<group>"; };
-		C989A33A213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherOptionInfoProtocol.swift; sourceTree = "<group>"; };
+		C989A33A213FDF1A00E64AD8 /* KingfisherOptionCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherOptionCompatible.swift; sourceTree = "<group>"; };
 		C989A33C213FE14F00E64AD8 /* Kingfisher+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kingfisher+View.swift"; sourceTree = "<group>"; };
-		C989A33F213FFEC400E64AD8 /* RxKingfisher.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RxKingfisher.podspec; sourceTree = "<group>"; };
+		C989A33F213FFEC400E64AD8 /* Rx+Kingfisher.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Rx+Kingfisher.podspec"; sourceTree = "<group>"; };
+		C989A349214030D400E64AD8 /* ViewCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCompatible.swift; sourceTree = "<group>"; };
+		C989A34B2140315D00E64AD8 /* ManagerCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerCompatible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,7 @@
 		C989A306213FBFE300E64AD8 = {
 			isa = PBXGroup;
 			children = (
-				C989A33F213FFEC400E64AD8 /* RxKingfisher.podspec */,
+				C989A33F213FFEC400E64AD8 /* Rx+Kingfisher.podspec */,
 				C989A332213FC11C00E64AD8 /* Sources */,
 				C989A311213FBFE300E64AD8 /* RxKingfisher */,
 				C989A326213FBFE600E64AD8 /* RxKingfisherUITests */,
@@ -141,7 +145,9 @@
 				C989A335213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift */,
 				C989A33C213FE14F00E64AD8 /* Kingfisher+View.swift */,
 				C989A337213FCFFD00E64AD8 /* OptionInfo.swift */,
-				C989A33A213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift */,
+				C989A349214030D400E64AD8 /* ViewCompatible.swift */,
+				C989A34B2140315D00E64AD8 /* ManagerCompatible.swift */,
+				C989A33A213FDF1A00E64AD8 /* KingfisherOptionCompatible.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -245,7 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C989A340213FFEC400E64AD8 /* RxKingfisher.podspec in Resources */,
+				C989A340213FFEC400E64AD8 /* Rx+Kingfisher.podspec in Resources */,
 				C989A31D213FBFE600E64AD8 /* LaunchScreen.storyboard in Resources */,
 				C989A31A213FBFE600E64AD8 /* Assets.xcassets in Resources */,
 				C989A318213FBFE300E64AD8 /* Main.storyboard in Resources */,
@@ -310,9 +316,11 @@
 				C989A33D213FE14F00E64AD8 /* Kingfisher+View.swift in Sources */,
 				C989A334213FC16700E64AD8 /* RxKingfisher.swift in Sources */,
 				C989A315213FBFE300E64AD8 /* ViewController.swift in Sources */,
-				C989A33B213FDF1A00E64AD8 /* KingfisherOptionInfoProtocol.swift in Sources */,
+				C989A33B213FDF1A00E64AD8 /* KingfisherOptionCompatible.swift in Sources */,
 				C989A313213FBFE300E64AD8 /* AppDelegate.swift in Sources */,
+				C989A34A214030D400E64AD8 /* ViewCompatible.swift in Sources */,
 				C989A338213FCFFD00E64AD8 /* OptionInfo.swift in Sources */,
+				C989A34C2140315D00E64AD8 /* ManagerCompatible.swift in Sources */,
 				C989A336213FC52F00E64AD8 /* Kingfisher+KingfisherOptionInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
