@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
     Kingfisher的一些扩展 链式写法
     Rx 下载图片后做一些处理
     DESC
-    s.homepage         = "https://github.com/Z-JaDe/RxKingfisher"
+    s.homepage         = "https://github.com/Z-JaDe"
     s.license          = 'MIT'
     s.author           = { "ZJaDe" => "zjade@outlook.com" }
-    s.source           = { :git => "https://github.com/Z-JaDe", :tag => s.version.to_s }
+    s.source           = { :git => "https://github.com/Z-JaDe/RxKingfisher.git", :tag => s.version.to_s }
     
     s.requires_arc          = true
     
