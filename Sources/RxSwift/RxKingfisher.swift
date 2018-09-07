@@ -10,70 +10,85 @@ import Foundation
 import RxSwift
 import Kingfisher
 public typealias ImageViewTupleType = (ImageView,Image?)
-extension Kingfisher where Base: KingfisherOptionCompatible,
-    Base.OptionInfoType:ViewOptionInfo<ImageView> {
+extension Kingfisher where Base: ChainCompatible,
+    Base.ChainType:ViewChain<ImageView> {
     @discardableResult
     public func setImage(with resource:Resource?) -> Observable<ImageViewTupleType> {
         return Observable.create({ (observer) -> Disposable in
-            return self.handle(resource: resource, observer: observer, callback: { (resource) -> RetrieveImageTask in
-                let closure = self._completionHandler(observer: observer, {[weak self] (image, error, cacheType, url) in
-                    guard let weakSelf = self else {return}
-                    observer.onNext((weakSelf.base.optionInfo.view,image))
+            let chain = self.base.chain()
+            let completionHandler = chain.completionHandler
+            if let resource = resource {
+                let closure = self._completionHandler(observer: observer, { (image, error, cacheType, url) in
+                    observer.onNext((chain.view,image))
                 })
-                return self.completionHandler(closure).setImage(resource)
-            })
+                let task:RetrieveImageTask = self.completionHandler(closure)
+                    .setImage(resource)
+                return Disposables.create {
+                    task.cancel()
+                }
+            }else {
+                completionHandler?(nil, nil, .none, nil)
+                observer.onCompleted()
+                return Disposables.create()
+            }
         })
     }
 }
 
 public typealias ButtonTupleType = (Button,Image?,UIControlState)
-extension Kingfisher where Base: KingfisherOptionCompatible,
-    Base.OptionInfoType:ViewOptionInfo<Button> {
+extension Kingfisher where Base: ChainCompatible,
+    Base.ChainType:ViewChain<Button> {
     @discardableResult
     public func setImage(with resource:Resource?, for state: UIControlState) -> Observable<ButtonTupleType> {
         return Observable.create({ (observer) -> Disposable in
-            return self.handle(resource: resource, observer: observer, callback: { (resource) -> RetrieveImageTask in
-                let closure = self._completionHandler(observer: observer, {[weak self] (image, error, cacheType, url) in
-                    guard let weakSelf = self else {return}
-                    observer.onNext((weakSelf.base.optionInfo.view, image,state))
+            let chain = self.base.chain()
+            let completionHandler = chain.completionHandler
+            if let resource = resource {
+                let closure = self._completionHandler(observer: observer, { (image, error, cacheType, url) in
+                    observer.onNext((chain.view, image,state))
                 })
-                return self.completionHandler(closure).setImage(resource, for: state)
-            })
+                let task:RetrieveImageTask = self.completionHandler(closure)
+                    .setImage(resource, for: state)
+                return Disposables.create {
+                    task.cancel()
+                }
+            }else {
+                completionHandler?(nil, nil, .none, nil)
+                observer.onCompleted()
+                return Disposables.create()
+            }
         })
     }
 }
 
 public typealias DownloadManagerTupleType = Image?
-extension Kingfisher where Base: KingfisherOptionCompatible,
-Base.OptionInfoType:ManagerOptionInfo {
+extension Kingfisher where Base: ChainCompatible,
+Base.ChainType:ManagerChain {
     @discardableResult
     public func retrieveImage(with resource:Resource?) -> Observable<DownloadManagerTupleType> {
         return Observable.create({ (observer) -> Disposable in
-            return self.handle(resource: resource, observer: observer, callback: { (resource) -> RetrieveImageTask in
+            let chain = self.base.chain()
+            let completionHandler = chain.completionHandler
+            if let resource = resource {
                 let closure = self._completionHandler(observer: observer, { (image, error, cacheType, url) in
                     observer.onNext((image))
                 })
-                return self.completionHandler(closure).retrieveImage(resource)
-            })
+                let task:RetrieveImageTask = self.completionHandler(closure)
+                    .retrieveImage(resource)
+                return Disposables.create {
+                    task.cancel()
+                }
+            }else {
+                completionHandler?(nil, nil, .none, nil)
+                observer.onCompleted()
+                return Disposables.create()
+            }
         })
     }
 }
-extension Kingfisher where Base: KingfisherOptionCompatible {
-    func handle<T>(resource:Resource?, observer:AnyObserver<T>, callback:(Resource)->RetrieveImageTask) -> Disposable {
-        if let resource = resource {
-            let task:RetrieveImageTask = callback(resource)
-            return Disposables.create {
-                task.cancel()
-            }
-        }else {
-            let completionHandler = base.optionInfo.completionHandler
-            completionHandler?(nil, nil, .none, nil)
-            observer.onCompleted()
-            return Disposables.create()
-        }
-    }
+extension Kingfisher where Base: ChainCompatible {
     func _completionHandler<T>(observer:AnyObserver<T>,_ onNext :@escaping CompletionHandler) -> CompletionHandler {
-        let old = self.base.optionInfo.completionHandler
+        let old = self.base.chain().completionHandler
         return { (image, error, cacheType, url) in
             if let error = error {
                 observer.onError(error)

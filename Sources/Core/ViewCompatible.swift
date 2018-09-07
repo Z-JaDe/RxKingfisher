@@ -13,7 +13,7 @@ protocol ViewCompatible {
     associatedtype _ViewType:UIView
     var view:_ViewType {get}
 }
-extension ViewOptionInfo:ViewCompatible {}
+extension ViewChain:ViewCompatible {}
 
 extension ViewCompatible where Self:UIView {
     var view:Self {

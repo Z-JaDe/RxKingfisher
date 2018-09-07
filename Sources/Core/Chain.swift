@@ -1,5 +1,5 @@
 //
-//  OptionInfo.swift
+//  Chain.swift
 //  RxKingfisher
 //
 //  Created by 郑军铎 on 2018/9/5.
@@ -10,9 +10,9 @@ import Foundation
 import Kingfisher
 
 
-extension OptionInfo:KingfisherCompatible {}
+extension Chain:KingfisherCompatible {}
 
-public class OptionInfo {
+public class Chain {
     var options:KingfisherOptionsInfo = KingfisherOptionsInfo()
     
     var progressBlock: DownloadProgressBlock? = nil
@@ -24,7 +24,7 @@ public class OptionInfo {
 }
 // MARK: -
 
-public class ViewOptionInfo<_View:UIView>:OptionInfo {
+public class ViewChain<_View:UIView>:Chain {
     public let view: _View
     init(view: _View) {
         self.view = view
@@ -32,22 +32,22 @@ public class ViewOptionInfo<_View:UIView>:OptionInfo {
 }
 
 // MARK: -
-public class ManagerOptionInfo:OptionInfo {
-    typealias _Manager = DownloadManager
-    let manager: _Manager
+public class ManagerChain:Chain {
+    public typealias _Manager = DownloadManager
+    public let manager: _Manager
     init(manager: _Manager) {
         self.manager = manager
     }
 }
 private var imageViewPlaceholderKey:UInt8 = 0
-extension ViewOptionInfo where _View:ImageView {
+extension ViewChain where _View:ImageView {
     public var placeholder: Placeholder? {
         get {return objc_getAssociatedObject(self, &imageViewPlaceholderKey) as? Placeholder}
         set {objc_setAssociatedObject(self, &imageViewPlaceholderKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)}
     }
 }
 private var buttonPlaceholderKey:UInt8 = 0
-extension ViewOptionInfo where _View:Button {
+extension ViewChain where _View:Button {
     public var placeholder: Image? {
         get {return objc_getAssociatedObject(self, &buttonPlaceholderKey) as? Image}
         set {objc_setAssociatedObject(self, &buttonPlaceholderKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)}

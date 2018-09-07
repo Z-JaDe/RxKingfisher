@@ -15,7 +15,7 @@ protocol ManagerCompatible {
     associatedtype _ManagerType:DownloadManager
     var manager:_ManagerType {get}
 }
-extension ManagerOptionInfo:ManagerCompatible {}
+extension ManagerChain:ManagerCompatible {}
 
 extension ManagerCompatible where Self:DownloadManager {
     var manager:Self {
