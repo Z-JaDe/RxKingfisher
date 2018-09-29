@@ -161,7 +161,7 @@ public extension Kingfisher where Base: ChainCompatible,
     }
     
     @discardableResult
-    public func setImage(_ resource:Resource?, for state: UIControlState) -> RetrieveImageTask {
+    public func setImage(_ resource:Resource?, for state: UIControl.State) -> RetrieveImageTask {
         let chain = base.chain()
         return chain.view.kf.setImage(
             with: resource, for: state,

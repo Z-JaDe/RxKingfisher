@@ -35,11 +35,11 @@ extension Kingfisher where Base: ChainCompatible,
     }
 }
 
-public typealias ButtonTupleType = (Button,Image?,UIControlState)
+public typealias ButtonTupleType = (Button,Image?,UIControl.State)
 extension Kingfisher where Base: ChainCompatible,
     Base.ChainType:ViewChain<Button> {
     @discardableResult
-    public func setImage(with resource:Resource?, for state: UIControlState) -> Observable<ButtonTupleType> {
+    public func setImage(with resource:Resource?, for state: UIControl.State) -> Observable<ButtonTupleType> {
         return Observable.create({ (observer) -> Disposable in
             let chain = self.base.chain()
             let completionHandler = chain.completionHandler
