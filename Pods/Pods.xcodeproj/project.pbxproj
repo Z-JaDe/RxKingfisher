@@ -3,214 +3,214 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000000000C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000C20 /* Foundation.framework */; };
-		000000000C40 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000D0 /* AnimatedImageView.swift */; };
-		000000000C50 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000E0 /* Box.swift */; };
-		000000000C60 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000F0 /* CacheSerializer.swift */; };
-		000000000C70 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000100 /* Filter.swift */; };
-		000000000C80 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000110 /* FormatIndicatedCacheSerializer.swift */; };
-		000000000C90 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000120 /* Image.swift */; };
-		000000000CA0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000130 /* ImageCache.swift */; };
-		000000000CB0 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000140 /* ImageDownloader.swift */; };
-		000000000CC0 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000150 /* ImageModifier.swift */; };
-		000000000CD0 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000160 /* ImagePrefetcher.swift */; };
-		000000000CE0 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000170 /* ImageProcessor.swift */; };
-		000000000CF0 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000180 /* ImageTransition.swift */; };
-		000000000D00 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000190 /* ImageView+Kingfisher.swift */; };
-		000000000D10 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001A0 /* Indicator.swift */; };
-		000000000D20 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001B0 /* Kingfisher.swift */; };
-		000000000D30 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001C0 /* KingfisherManager.swift */; };
-		000000000D40 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001D0 /* KingfisherOptionsInfo.swift */; };
-		000000000D50 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001E0 /* Placeholder.swift */; };
-		000000000D60 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001F0 /* RequestModifier.swift */; };
-		000000000D70 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000200 /* Resource.swift */; };
-		000000000D80 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000210 /* String+MD5.swift */; };
-		000000000D90 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000220 /* ThreadHelper.swift */; };
-		000000000DA0 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000230 /* UIButton+Kingfisher.swift */; };
-		000000000DC0 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000240 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000E10 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000E00 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000E50 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000E40 /* Kingfisher-dummy.m */; };
-		000000000ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000C20 /* Foundation.framework */; };
-		000000000EE0 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000250 /* AnyObserver.swift */; };
-		000000000EF0 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000260 /* Cancelable.swift */; };
-		000000000F00 /* AsyncLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000270 /* AsyncLock.swift */; };
-		000000000F10 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000280 /* Lock.swift */; };
-		000000000F20 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000290 /* LockOwnerType.swift */; };
-		000000000F30 /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002A0 /* SynchronizedDisposeType.swift */; };
-		000000000F40 /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002B0 /* SynchronizedOnType.swift */; };
-		000000000F50 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002C0 /* SynchronizedUnsubscribeType.swift */; };
-		000000000F60 /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002D0 /* ConnectableObservableType.swift */; };
-		000000000F70 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002E0 /* Deprecated.swift */; };
-		000000000F80 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002F0 /* Disposable.swift */; };
-		000000000F90 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000300 /* AnonymousDisposable.swift */; };
-		000000000FA0 /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000310 /* BinaryDisposable.swift */; };
-		000000000FB0 /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000320 /* BooleanDisposable.swift */; };
-		000000000FC0 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000330 /* CompositeDisposable.swift */; };
-		000000000FD0 /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000340 /* Disposables.swift */; };
-		000000000FE0 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000350 /* DisposeBag.swift */; };
-		000000000FF0 /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000360 /* DisposeBase.swift */; };
-		000000001000 /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000370 /* NopDisposable.swift */; };
-		000000001010 /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000380 /* RefCountDisposable.swift */; };
-		000000001020 /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000390 /* ScheduledDisposable.swift */; };
-		000000001030 /* SerialDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003A0 /* SerialDisposable.swift */; };
-		000000001040 /* SingleAssignmentDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003B0 /* SingleAssignmentDisposable.swift */; };
-		000000001050 /* SubscriptionDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003C0 /* SubscriptionDisposable.swift */; };
-		000000001060 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003D0 /* Errors.swift */; };
-		000000001070 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003E0 /* Event.swift */; };
-		000000001080 /* Bag+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003F0 /* Bag+Rx.swift */; };
-		000000001090 /* String+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000400 /* String+Rx.swift */; };
-		0000000010A0 /* GroupedObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000410 /* GroupedObservable.swift */; };
-		0000000010B0 /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000420 /* ImmediateSchedulerType.swift */; };
-		0000000010C0 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000430 /* Observable.swift */; };
-		0000000010D0 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000440 /* ObservableConvertibleType.swift */; };
-		0000000010E0 /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000450 /* AddRef.swift */; };
-		0000000010F0 /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000460 /* Amb.swift */; };
-		000000001100 /* AsMaybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000470 /* AsMaybe.swift */; };
-		000000001110 /* AsSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000480 /* AsSingle.swift */; };
-		000000001120 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000490 /* Buffer.swift */; };
-		000000001130 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004A0 /* Catch.swift */; };
-		000000001140 /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004B0 /* CombineLatest+arity.swift */; };
-		000000001150 /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004C0 /* CombineLatest+Collection.swift */; };
-		000000001160 /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004D0 /* CombineLatest.swift */; };
-		000000001170 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004E0 /* Concat.swift */; };
-		000000001180 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004F0 /* Create.swift */; };
-		000000001190 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000500 /* Debounce.swift */; };
-		0000000011A0 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000510 /* Debug.swift */; };
-		0000000011B0 /* DefaultIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000520 /* DefaultIfEmpty.swift */; };
-		0000000011C0 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000530 /* Deferred.swift */; };
-		0000000011D0 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000540 /* Delay.swift */; };
-		0000000011E0 /* DelaySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000550 /* DelaySubscription.swift */; };
-		0000000011F0 /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000560 /* Dematerialize.swift */; };
-		000000001200 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000570 /* DistinctUntilChanged.swift */; };
-		000000001210 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000580 /* Do.swift */; };
-		000000001220 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000590 /* ElementAt.swift */; };
-		000000001230 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005A0 /* Empty.swift */; };
-		000000001240 /* Enumerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005B0 /* Enumerated.swift */; };
-		000000001250 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005C0 /* Error.swift */; };
-		000000001260 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Filter.swift */; };
-		000000001270 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005E0 /* First.swift */; };
-		000000001280 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005F0 /* Generate.swift */; };
-		000000001290 /* GroupBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000600 /* GroupBy.swift */; };
-		0000000012A0 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000610 /* Just.swift */; };
-		0000000012B0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000620 /* Map.swift */; };
-		0000000012C0 /* Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000630 /* Materialize.swift */; };
-		0000000012D0 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000640 /* Merge.swift */; };
-		0000000012E0 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000650 /* Multicast.swift */; };
-		0000000012F0 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000660 /* Never.swift */; };
-		000000001300 /* ObserveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000670 /* ObserveOn.swift */; };
-		000000001310 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000680 /* Optional.swift */; };
-		000000001320 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000690 /* Producer.swift */; };
-		000000001330 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006A0 /* Range.swift */; };
-		000000001340 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006B0 /* Reduce.swift */; };
-		000000001350 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006C0 /* Repeat.swift */; };
-		000000001360 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006D0 /* RetryWhen.swift */; };
-		000000001370 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006E0 /* Sample.swift */; };
-		000000001380 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006F0 /* Scan.swift */; };
-		000000001390 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000700 /* Sequence.swift */; };
-		0000000013A0 /* ShareReplayScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000710 /* ShareReplayScope.swift */; };
-		0000000013B0 /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000720 /* SingleAsync.swift */; };
-		0000000013C0 /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000730 /* Sink.swift */; };
-		0000000013D0 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000740 /* Skip.swift */; };
-		0000000013E0 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000750 /* SkipUntil.swift */; };
-		0000000013F0 /* SkipWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000760 /* SkipWhile.swift */; };
-		000000001400 /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000770 /* StartWith.swift */; };
-		000000001410 /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000780 /* SubscribeOn.swift */; };
-		000000001420 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000790 /* Switch.swift */; };
-		000000001430 /* SwitchIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007A0 /* SwitchIfEmpty.swift */; };
-		000000001440 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007B0 /* Take.swift */; };
-		000000001450 /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007C0 /* TakeLast.swift */; };
-		000000001460 /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007D0 /* TakeUntil.swift */; };
-		000000001470 /* TakeWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007E0 /* TakeWhile.swift */; };
-		000000001480 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007F0 /* Throttle.swift */; };
-		000000001490 /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000800 /* Timeout.swift */; };
-		0000000014A0 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000810 /* Timer.swift */; };
-		0000000014B0 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000820 /* ToArray.swift */; };
-		0000000014C0 /* Using.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000830 /* Using.swift */; };
-		0000000014D0 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000840 /* Window.swift */; };
-		0000000014E0 /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000850 /* WithLatestFrom.swift */; };
-		0000000014F0 /* Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000860 /* Zip+arity.swift */; };
-		000000001500 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000870 /* Zip+Collection.swift */; };
-		000000001510 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000880 /* Zip.swift */; };
-		000000001520 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000890 /* ObservableType+Extensions.swift */; };
-		000000001530 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008A0 /* ObservableType.swift */; };
-		000000001540 /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008B0 /* AnonymousObserver.swift */; };
-		000000001550 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008C0 /* ObserverBase.swift */; };
-		000000001560 /* TailRecursiveSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008D0 /* TailRecursiveSink.swift */; };
-		000000001570 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008E0 /* ObserverType.swift */; };
-		000000001580 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008F0 /* Reactive.swift */; };
-		000000001590 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000900 /* Rx.swift */; };
-		0000000015A0 /* RxMutableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000910 /* RxMutableBox.swift */; };
-		0000000015B0 /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000920 /* ConcurrentDispatchQueueScheduler.swift */; };
-		0000000015C0 /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000930 /* ConcurrentMainScheduler.swift */; };
-		0000000015D0 /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000940 /* CurrentThreadScheduler.swift */; };
-		0000000015E0 /* HistoricalScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000950 /* HistoricalScheduler.swift */; };
-		0000000015F0 /* HistoricalSchedulerTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000960 /* HistoricalSchedulerTimeConverter.swift */; };
-		000000001600 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000970 /* DispatchQueueConfiguration.swift */; };
-		000000001610 /* InvocableScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000980 /* InvocableScheduledItem.swift */; };
-		000000001620 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000990 /* InvocableType.swift */; };
-		000000001630 /* ScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009A0 /* ScheduledItem.swift */; };
-		000000001640 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009B0 /* ScheduledItemType.swift */; };
-		000000001650 /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009C0 /* MainScheduler.swift */; };
-		000000001660 /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009D0 /* OperationQueueScheduler.swift */; };
-		000000001670 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009E0 /* RecursiveScheduler.swift */; };
-		000000001680 /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009F0 /* SchedulerServices+Emulation.swift */; };
-		000000001690 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A00 /* SerialDispatchQueueScheduler.swift */; };
-		0000000016A0 /* VirtualTimeConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A10 /* VirtualTimeConverterType.swift */; };
-		0000000016B0 /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A20 /* VirtualTimeScheduler.swift */; };
-		0000000016C0 /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A30 /* SchedulerType.swift */; };
-		0000000016D0 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A40 /* AsyncSubject.swift */; };
-		0000000016E0 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A50 /* BehaviorSubject.swift */; };
-		0000000016F0 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A60 /* PublishSubject.swift */; };
-		000000001700 /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A70 /* ReplaySubject.swift */; };
-		000000001710 /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A80 /* SubjectType.swift */; };
-		000000001720 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A90 /* SwiftSupport.swift */; };
-		000000001730 /* Completable+AndThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AA0 /* Completable+AndThen.swift */; };
-		000000001740 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AB0 /* Completable.swift */; };
-		000000001750 /* Maybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AC0 /* Maybe.swift */; };
-		000000001760 /* ObservableType+PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AD0 /* ObservableType+PrimitiveSequence.swift */; };
-		000000001770 /* PrimitiveSequence+Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AE0 /* PrimitiveSequence+Zip+arity.swift */; };
-		000000001780 /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AF0 /* PrimitiveSequence.swift */; };
-		000000001790 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B00 /* Single.swift */; };
-		0000000017A0 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B10 /* Bag.swift */; };
-		0000000017B0 /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B20 /* InfiniteSequence.swift */; };
-		0000000017C0 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B30 /* PriorityQueue.swift */; };
-		0000000017D0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B40 /* Queue.swift */; };
-		0000000017E0 /* DeprecationWarner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B50 /* DeprecationWarner.swift */; };
-		0000000017F0 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B60 /* DispatchQueue+Extensions.swift */; };
-		000000001800 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B70 /* Platform.Darwin.swift */; };
-		000000001810 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B80 /* Platform.Linux.swift */; };
-		000000001820 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B90 /* RecursiveLock.swift */; };
-		000000001880 /* RxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000001860 /* RxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000018C0 /* RxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000018B0 /* RxSwift-dummy.m */; };
-		000000001940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000C20 /* Foundation.framework */; };
-		0000000019C0 /* Pods-CommonPods-RxKingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000019A0 /* Pods-CommonPods-RxKingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000001A20 /* Pods-CommonPods-RxKingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000001A10 /* Pods-CommonPods-RxKingfisher-dummy.m */; };
-		000000001A40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000001A30 /* CFNetwork.framework */; };
+		000000000C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000C40 /* Foundation.framework */; };
+		000000000C60 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000D0 /* AnimatedImageView.swift */; };
+		000000000C70 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000E0 /* Box.swift */; };
+		000000000C80 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000F0 /* CacheSerializer.swift */; };
+		000000000C90 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000100 /* Filter.swift */; };
+		000000000CA0 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000110 /* FormatIndicatedCacheSerializer.swift */; };
+		000000000CB0 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000120 /* Image.swift */; };
+		000000000CC0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000130 /* ImageCache.swift */; };
+		000000000CD0 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000140 /* ImageDownloader.swift */; };
+		000000000CE0 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000150 /* ImageModifier.swift */; };
+		000000000CF0 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000160 /* ImagePrefetcher.swift */; };
+		000000000D00 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000170 /* ImageProcessor.swift */; };
+		000000000D10 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000180 /* ImageTransition.swift */; };
+		000000000D20 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000190 /* ImageView+Kingfisher.swift */; };
+		000000000D30 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001A0 /* Indicator.swift */; };
+		000000000D40 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001B0 /* Kingfisher.swift */; };
+		000000000D50 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001C0 /* KingfisherManager.swift */; };
+		000000000D60 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001D0 /* KingfisherOptionsInfo.swift */; };
+		000000000D70 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001E0 /* Placeholder.swift */; };
+		000000000D80 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001F0 /* RequestModifier.swift */; };
+		000000000D90 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000200 /* Resource.swift */; };
+		000000000DA0 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000210 /* String+MD5.swift */; };
+		000000000DB0 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000220 /* ThreadHelper.swift */; };
+		000000000DC0 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000230 /* UIButton+Kingfisher.swift */; };
+		000000000DD0 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000240 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E20 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000E10 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E60 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000E50 /* Kingfisher-dummy.m */; };
+		000000000F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000C40 /* Foundation.framework */; };
+		000000000F10 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000250 /* AnyObserver.swift */; };
+		000000000F20 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000260 /* Cancelable.swift */; };
+		000000000F30 /* AsyncLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000270 /* AsyncLock.swift */; };
+		000000000F40 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000280 /* Lock.swift */; };
+		000000000F50 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000290 /* LockOwnerType.swift */; };
+		000000000F60 /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002A0 /* SynchronizedDisposeType.swift */; };
+		000000000F70 /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002B0 /* SynchronizedOnType.swift */; };
+		000000000F80 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002C0 /* SynchronizedUnsubscribeType.swift */; };
+		000000000F90 /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002D0 /* ConnectableObservableType.swift */; };
+		000000000FA0 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002E0 /* Deprecated.swift */; };
+		000000000FB0 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002F0 /* Disposable.swift */; };
+		000000000FC0 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000300 /* AnonymousDisposable.swift */; };
+		000000000FD0 /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000310 /* BinaryDisposable.swift */; };
+		000000000FE0 /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000320 /* BooleanDisposable.swift */; };
+		000000000FF0 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000330 /* CompositeDisposable.swift */; };
+		000000001000 /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000340 /* Disposables.swift */; };
+		000000001010 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000350 /* DisposeBag.swift */; };
+		000000001020 /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000360 /* DisposeBase.swift */; };
+		000000001030 /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000370 /* NopDisposable.swift */; };
+		000000001040 /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000380 /* RefCountDisposable.swift */; };
+		000000001050 /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000390 /* ScheduledDisposable.swift */; };
+		000000001060 /* SerialDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003A0 /* SerialDisposable.swift */; };
+		000000001070 /* SingleAssignmentDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003B0 /* SingleAssignmentDisposable.swift */; };
+		000000001080 /* SubscriptionDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003C0 /* SubscriptionDisposable.swift */; };
+		000000001090 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003D0 /* Errors.swift */; };
+		0000000010A0 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003E0 /* Event.swift */; };
+		0000000010B0 /* Bag+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003F0 /* Bag+Rx.swift */; };
+		0000000010C0 /* String+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000400 /* String+Rx.swift */; };
+		0000000010D0 /* GroupedObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000410 /* GroupedObservable.swift */; };
+		0000000010E0 /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000420 /* ImmediateSchedulerType.swift */; };
+		0000000010F0 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000430 /* Observable.swift */; };
+		000000001100 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000440 /* ObservableConvertibleType.swift */; };
+		000000001110 /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000450 /* AddRef.swift */; };
+		000000001120 /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000460 /* Amb.swift */; };
+		000000001130 /* AsMaybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000470 /* AsMaybe.swift */; };
+		000000001140 /* AsSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000480 /* AsSingle.swift */; };
+		000000001150 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000490 /* Buffer.swift */; };
+		000000001160 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004A0 /* Catch.swift */; };
+		000000001170 /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004B0 /* CombineLatest+arity.swift */; };
+		000000001180 /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004C0 /* CombineLatest+Collection.swift */; };
+		000000001190 /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004D0 /* CombineLatest.swift */; };
+		0000000011A0 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004E0 /* Concat.swift */; };
+		0000000011B0 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004F0 /* Create.swift */; };
+		0000000011C0 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000500 /* Debounce.swift */; };
+		0000000011D0 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000510 /* Debug.swift */; };
+		0000000011E0 /* DefaultIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000520 /* DefaultIfEmpty.swift */; };
+		0000000011F0 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000530 /* Deferred.swift */; };
+		000000001200 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000540 /* Delay.swift */; };
+		000000001210 /* DelaySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000550 /* DelaySubscription.swift */; };
+		000000001220 /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000560 /* Dematerialize.swift */; };
+		000000001230 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000570 /* DistinctUntilChanged.swift */; };
+		000000001240 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000580 /* Do.swift */; };
+		000000001250 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000590 /* ElementAt.swift */; };
+		000000001260 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005A0 /* Empty.swift */; };
+		000000001270 /* Enumerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005B0 /* Enumerated.swift */; };
+		000000001280 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005C0 /* Error.swift */; };
+		000000001290 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Filter.swift */; };
+		0000000012A0 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005E0 /* First.swift */; };
+		0000000012B0 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005F0 /* Generate.swift */; };
+		0000000012C0 /* GroupBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000600 /* GroupBy.swift */; };
+		0000000012D0 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000610 /* Just.swift */; };
+		0000000012E0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000620 /* Map.swift */; };
+		0000000012F0 /* Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000630 /* Materialize.swift */; };
+		000000001300 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000640 /* Merge.swift */; };
+		000000001310 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000650 /* Multicast.swift */; };
+		000000001320 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000660 /* Never.swift */; };
+		000000001330 /* ObserveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000670 /* ObserveOn.swift */; };
+		000000001340 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000680 /* Optional.swift */; };
+		000000001350 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000690 /* Producer.swift */; };
+		000000001360 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006A0 /* Range.swift */; };
+		000000001370 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006B0 /* Reduce.swift */; };
+		000000001380 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006C0 /* Repeat.swift */; };
+		000000001390 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006D0 /* RetryWhen.swift */; };
+		0000000013A0 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006E0 /* Sample.swift */; };
+		0000000013B0 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006F0 /* Scan.swift */; };
+		0000000013C0 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000700 /* Sequence.swift */; };
+		0000000013D0 /* ShareReplayScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000710 /* ShareReplayScope.swift */; };
+		0000000013E0 /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000720 /* SingleAsync.swift */; };
+		0000000013F0 /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000730 /* Sink.swift */; };
+		000000001400 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000740 /* Skip.swift */; };
+		000000001410 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000750 /* SkipUntil.swift */; };
+		000000001420 /* SkipWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000760 /* SkipWhile.swift */; };
+		000000001430 /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000770 /* StartWith.swift */; };
+		000000001440 /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000780 /* SubscribeOn.swift */; };
+		000000001450 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000790 /* Switch.swift */; };
+		000000001460 /* SwitchIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007A0 /* SwitchIfEmpty.swift */; };
+		000000001470 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007B0 /* Take.swift */; };
+		000000001480 /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007C0 /* TakeLast.swift */; };
+		000000001490 /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007D0 /* TakeUntil.swift */; };
+		0000000014A0 /* TakeWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007E0 /* TakeWhile.swift */; };
+		0000000014B0 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007F0 /* Throttle.swift */; };
+		0000000014C0 /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000800 /* Timeout.swift */; };
+		0000000014D0 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000810 /* Timer.swift */; };
+		0000000014E0 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000820 /* ToArray.swift */; };
+		0000000014F0 /* Using.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000830 /* Using.swift */; };
+		000000001500 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000840 /* Window.swift */; };
+		000000001510 /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000850 /* WithLatestFrom.swift */; };
+		000000001520 /* Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000860 /* Zip+arity.swift */; };
+		000000001530 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000870 /* Zip+Collection.swift */; };
+		000000001540 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000880 /* Zip.swift */; };
+		000000001550 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000890 /* ObservableType+Extensions.swift */; };
+		000000001560 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008A0 /* ObservableType.swift */; };
+		000000001570 /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008B0 /* AnonymousObserver.swift */; };
+		000000001580 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008C0 /* ObserverBase.swift */; };
+		000000001590 /* TailRecursiveSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008D0 /* TailRecursiveSink.swift */; };
+		0000000015A0 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008E0 /* ObserverType.swift */; };
+		0000000015B0 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008F0 /* Reactive.swift */; };
+		0000000015C0 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000900 /* Rx.swift */; };
+		0000000015D0 /* RxMutableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000910 /* RxMutableBox.swift */; };
+		0000000015E0 /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000920 /* ConcurrentDispatchQueueScheduler.swift */; };
+		0000000015F0 /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000930 /* ConcurrentMainScheduler.swift */; };
+		000000001600 /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000940 /* CurrentThreadScheduler.swift */; };
+		000000001610 /* HistoricalScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000950 /* HistoricalScheduler.swift */; };
+		000000001620 /* HistoricalSchedulerTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000960 /* HistoricalSchedulerTimeConverter.swift */; };
+		000000001630 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000970 /* DispatchQueueConfiguration.swift */; };
+		000000001640 /* InvocableScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000980 /* InvocableScheduledItem.swift */; };
+		000000001650 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000990 /* InvocableType.swift */; };
+		000000001660 /* ScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009A0 /* ScheduledItem.swift */; };
+		000000001670 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009B0 /* ScheduledItemType.swift */; };
+		000000001680 /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009C0 /* MainScheduler.swift */; };
+		000000001690 /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009D0 /* OperationQueueScheduler.swift */; };
+		0000000016A0 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009E0 /* RecursiveScheduler.swift */; };
+		0000000016B0 /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000009F0 /* SchedulerServices+Emulation.swift */; };
+		0000000016C0 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A00 /* SerialDispatchQueueScheduler.swift */; };
+		0000000016D0 /* VirtualTimeConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A10 /* VirtualTimeConverterType.swift */; };
+		0000000016E0 /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A20 /* VirtualTimeScheduler.swift */; };
+		0000000016F0 /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A30 /* SchedulerType.swift */; };
+		000000001700 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A40 /* AsyncSubject.swift */; };
+		000000001710 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A50 /* BehaviorSubject.swift */; };
+		000000001720 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A60 /* PublishSubject.swift */; };
+		000000001730 /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A70 /* ReplaySubject.swift */; };
+		000000001740 /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A80 /* SubjectType.swift */; };
+		000000001750 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000A90 /* SwiftSupport.swift */; };
+		000000001760 /* Completable+AndThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AA0 /* Completable+AndThen.swift */; };
+		000000001770 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AB0 /* Completable.swift */; };
+		000000001780 /* Maybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AC0 /* Maybe.swift */; };
+		000000001790 /* ObservableType+PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AD0 /* ObservableType+PrimitiveSequence.swift */; };
+		0000000017A0 /* PrimitiveSequence+Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AE0 /* PrimitiveSequence+Zip+arity.swift */; };
+		0000000017B0 /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AF0 /* PrimitiveSequence.swift */; };
+		0000000017C0 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B00 /* Single.swift */; };
+		0000000017D0 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B10 /* Bag.swift */; };
+		0000000017E0 /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B20 /* InfiniteSequence.swift */; };
+		0000000017F0 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B30 /* PriorityQueue.swift */; };
+		000000001800 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B40 /* Queue.swift */; };
+		000000001810 /* DeprecationWarner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B50 /* DeprecationWarner.swift */; };
+		000000001820 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B60 /* DispatchQueue+Extensions.swift */; };
+		000000001830 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B70 /* Platform.Darwin.swift */; };
+		000000001840 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B80 /* Platform.Linux.swift */; };
+		000000001850 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000B90 /* RecursiveLock.swift */; };
+		0000000018A0 /* RxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000001890 /* RxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000018E0 /* RxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000018D0 /* RxSwift-dummy.m */; };
+		000000001980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000C40 /* Foundation.framework */; };
+		0000000019F0 /* Pods-RxKingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000019E0 /* Pods-RxKingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000001A50 /* Pods-RxKingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000001A40 /* Pods-RxKingfisher-dummy.m */; };
+		000000001A70 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000001A60 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		000000001A50 /* PBXContainerItemProxy */ = {
+		000000001A80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 000000000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 000000000BA0;
 			remoteInfo = Kingfisher;
 		};
-		000000001A70 /* PBXContainerItemProxy */ = {
+		000000001AA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 000000000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 000000000E60;
+			remoteGlobalIDString = 000000000E70;
 			remoteInfo = RxSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0000000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0000000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0000000000D0 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
 		0000000000E0 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		0000000000F0 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
@@ -384,58 +384,58 @@
 		000000000B70 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		000000000B80 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		000000000B90 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
-		000000000BE0 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		000000000C20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		000000000DE0 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
-		000000000DF0 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
-		000000000E00 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
-		000000000E20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000000000E30 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
-		000000000E40 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
-		000000000EA0 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		000000001840 /* RxSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.xcconfig; sourceTree = "<group>"; };
-		000000001850 /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
-		000000001860 /* RxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-umbrella.h"; sourceTree = "<group>"; };
-		000000001890 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0000000018A0 /* RxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-prefix.pch"; sourceTree = "<group>"; };
-		0000000018B0 /* RxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSwift-dummy.m"; sourceTree = "<group>"; };
-		000000001910 /* Pods_CommonPods_RxKingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_RxKingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		000000001960 /* Pods-CommonPods-RxKingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonPods-RxKingfisher.release.xcconfig"; sourceTree = "<group>"; };
-		000000001970 /* Pods-CommonPods-RxKingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonPods-RxKingfisher.debug.xcconfig"; sourceTree = "<group>"; };
-		000000001980 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000000001990 /* Pods-CommonPods-RxKingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonPods-RxKingfisher.modulemap"; sourceTree = "<group>"; };
-		0000000019A0 /* Pods-CommonPods-RxKingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonPods-RxKingfisher-umbrella.h"; sourceTree = "<group>"; };
-		0000000019D0 /* Pods-CommonPods-RxKingfisher-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonPods-RxKingfisher-frameworks.sh"; sourceTree = "<group>"; };
-		0000000019E0 /* Pods-CommonPods-RxKingfisher-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonPods-RxKingfisher-resources.sh"; sourceTree = "<group>"; };
-		0000000019F0 /* Pods-CommonPods-RxKingfisher-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonPods-RxKingfisher-acknowledgements.plist"; sourceTree = "<group>"; };
-		000000001A00 /* Pods-CommonPods-RxKingfisher-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonPods-RxKingfisher-acknowledgements.markdown"; sourceTree = "<group>"; };
-		000000001A10 /* Pods-CommonPods-RxKingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonPods-RxKingfisher-dummy.m"; sourceTree = "<group>"; };
-		000000001A30 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		000000000BE0 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000C40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		000000000DF0 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		000000000E00 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		000000000E10 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		000000000E30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000E40 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		000000000E50 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		000000000EB0 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000001870 /* RxSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.xcconfig; sourceTree = "<group>"; };
+		000000001880 /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
+		000000001890 /* RxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-umbrella.h"; sourceTree = "<group>"; };
+		0000000018B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0000000018C0 /* RxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-prefix.pch"; sourceTree = "<group>"; };
+		0000000018D0 /* RxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSwift-dummy.m"; sourceTree = "<group>"; };
+		000000001930 /* Pods_RxKingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxKingfisher.framework; path = "Pods-RxKingfisher.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000019A0 /* Pods-RxKingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxKingfisher.release.xcconfig"; sourceTree = "<group>"; };
+		0000000019B0 /* Pods-RxKingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxKingfisher.debug.xcconfig"; sourceTree = "<group>"; };
+		0000000019C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0000000019D0 /* Pods-RxKingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxKingfisher.modulemap"; sourceTree = "<group>"; };
+		0000000019E0 /* Pods-RxKingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxKingfisher-umbrella.h"; sourceTree = "<group>"; };
+		000000001A00 /* Pods-RxKingfisher-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxKingfisher-frameworks.sh"; sourceTree = "<group>"; };
+		000000001A10 /* Pods-RxKingfisher-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxKingfisher-resources.sh"; sourceTree = "<group>"; };
+		000000001A20 /* Pods-RxKingfisher-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxKingfisher-acknowledgements.plist"; sourceTree = "<group>"; };
+		000000001A30 /* Pods-RxKingfisher-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxKingfisher-acknowledgements.markdown"; sourceTree = "<group>"; };
+		000000001A40 /* Pods-RxKingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxKingfisher-dummy.m"; sourceTree = "<group>"; };
+		000000001A60 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		000000000C00 /* Frameworks */ = {
+		000000000C10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000001A40 /* CFNetwork.framework in Frameworks */,
-				000000000C30 /* Foundation.framework in Frameworks */,
+				000000001A70 /* CFNetwork.framework in Frameworks */,
+				000000000C50 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000EC0 /* Frameworks */ = {
+		000000000EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000ED0 /* Foundation.framework in Frameworks */,
+				000000000F00 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000001930 /* Frameworks */ = {
+		000000001960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000001940 /* Foundation.framework in Frameworks */,
+				000000001980 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,8 +457,8 @@
 			isa = PBXGroup;
 			children = (
 				000000000BE0 /* Kingfisher.framework */,
-				000000001910 /* Pods_CommonPods_RxKingfisher.framework */,
-				000000000EA0 /* RxSwift.framework */,
+				000000001930 /* Pods_RxKingfisher.framework */,
+				000000000EB0 /* RxSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -466,7 +466,7 @@
 		000000000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				000000000C10 /* iOS */,
+				000000000C30 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -474,7 +474,7 @@
 		000000000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				000000001950 /* Pods-CommonPods-RxKingfisher */,
+				000000001990 /* Pods-RxKingfisher */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -515,8 +515,9 @@
 				000000000210 /* String+MD5.swift */,
 				000000000220 /* ThreadHelper.swift */,
 				000000000230 /* UIButton+Kingfisher.swift */,
-				000000000DD0 /* Support Files */,
+				000000000DE0 /* Support Files */,
 			);
+			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -672,91 +673,92 @@
 				000000000880 /* Zip.swift */,
 				000000000860 /* Zip+arity.swift */,
 				000000000870 /* Zip+Collection.swift */,
-				000000001830 /* Support Files */,
+				000000001860 /* Support Files */,
 			);
+			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
-		000000000C10 /* iOS */ = {
+		000000000C30 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				000000001A30 /* CFNetwork.framework */,
-				000000000C20 /* Foundation.framework */,
+				000000001A60 /* CFNetwork.framework */,
+				000000000C40 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		000000000DD0 /* Support Files */ = {
+		000000000DE0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				000000000E20 /* Info.plist */,
-				000000000DF0 /* Kingfisher.modulemap */,
-				000000000DE0 /* Kingfisher.xcconfig */,
-				000000000E40 /* Kingfisher-dummy.m */,
-				000000000E30 /* Kingfisher-prefix.pch */,
-				000000000E00 /* Kingfisher-umbrella.h */,
+				000000000E30 /* Info.plist */,
+				000000000E00 /* Kingfisher.modulemap */,
+				000000000DF0 /* Kingfisher.xcconfig */,
+				000000000E50 /* Kingfisher-dummy.m */,
+				000000000E40 /* Kingfisher-prefix.pch */,
+				000000000E10 /* Kingfisher-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kingfisher";
 			sourceTree = "<group>";
 		};
-		000000001830 /* Support Files */ = {
+		000000001860 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				000000001890 /* Info.plist */,
-				000000001850 /* RxSwift.modulemap */,
-				000000001840 /* RxSwift.xcconfig */,
-				0000000018B0 /* RxSwift-dummy.m */,
-				0000000018A0 /* RxSwift-prefix.pch */,
-				000000001860 /* RxSwift-umbrella.h */,
+				0000000018B0 /* Info.plist */,
+				000000001880 /* RxSwift.modulemap */,
+				000000001870 /* RxSwift.xcconfig */,
+				0000000018D0 /* RxSwift-dummy.m */,
+				0000000018C0 /* RxSwift-prefix.pch */,
+				000000001890 /* RxSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RxSwift";
 			sourceTree = "<group>";
 		};
-		000000001950 /* Pods-CommonPods-RxKingfisher */ = {
+		000000001990 /* Pods-RxKingfisher */ = {
 			isa = PBXGroup;
 			children = (
-				000000001980 /* Info.plist */,
-				000000001990 /* Pods-CommonPods-RxKingfisher.modulemap */,
-				000000001A00 /* Pods-CommonPods-RxKingfisher-acknowledgements.markdown */,
-				0000000019F0 /* Pods-CommonPods-RxKingfisher-acknowledgements.plist */,
-				000000001A10 /* Pods-CommonPods-RxKingfisher-dummy.m */,
-				0000000019D0 /* Pods-CommonPods-RxKingfisher-frameworks.sh */,
-				0000000019E0 /* Pods-CommonPods-RxKingfisher-resources.sh */,
-				0000000019A0 /* Pods-CommonPods-RxKingfisher-umbrella.h */,
-				000000001970 /* Pods-CommonPods-RxKingfisher.debug.xcconfig */,
-				000000001960 /* Pods-CommonPods-RxKingfisher.release.xcconfig */,
+				0000000019C0 /* Info.plist */,
+				0000000019D0 /* Pods-RxKingfisher.modulemap */,
+				000000001A30 /* Pods-RxKingfisher-acknowledgements.markdown */,
+				000000001A20 /* Pods-RxKingfisher-acknowledgements.plist */,
+				000000001A40 /* Pods-RxKingfisher-dummy.m */,
+				000000001A00 /* Pods-RxKingfisher-frameworks.sh */,
+				000000001A10 /* Pods-RxKingfisher-resources.sh */,
+				0000000019E0 /* Pods-RxKingfisher-umbrella.h */,
+				0000000019B0 /* Pods-RxKingfisher.debug.xcconfig */,
+				0000000019A0 /* Pods-RxKingfisher.release.xcconfig */,
 			);
-			name = "Pods-CommonPods-RxKingfisher";
-			path = "Target Support Files/Pods-CommonPods-RxKingfisher";
+			name = "Pods-RxKingfisher";
+			path = "Target Support Files/Pods-RxKingfisher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		000000000DB0 /* Headers */ = {
+		000000000BF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000E10 /* Kingfisher-umbrella.h in Headers */,
-				000000000DC0 /* Kingfisher.h in Headers */,
+				000000000E20 /* Kingfisher-umbrella.h in Headers */,
+				000000000DD0 /* Kingfisher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000001870 /* Headers */ = {
+		000000000EC0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000001880 /* RxSwift-umbrella.h in Headers */,
+				0000000018A0 /* RxSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0000000019B0 /* Headers */ = {
+		000000001940 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0000000019C0 /* Pods-CommonPods-RxKingfisher-umbrella.h in Headers */,
+				0000000019F0 /* Pods-RxKingfisher-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,9 +769,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000000000BB0 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
 			buildPhases = (
-				000000000BF0 /* Sources */,
-				000000000C00 /* Frameworks */,
-				000000000DB0 /* Headers */,
+				000000000BF0 /* Headers */,
+				000000000C00 /* Sources */,
+				000000000C10 /* Frameworks */,
+				000000000C20 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -780,13 +783,14 @@
 			productReference = 000000000BE0 /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		000000000E60 /* RxSwift */ = {
+		000000000E70 /* RxSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000E70 /* Build configuration list for PBXNativeTarget "RxSwift" */;
+			buildConfigurationList = 000000000E80 /* Build configuration list for PBXNativeTarget "RxSwift" */;
 			buildPhases = (
-				000000000EB0 /* Sources */,
-				000000000EC0 /* Frameworks */,
-				000000001870 /* Headers */,
+				000000000EC0 /* Headers */,
+				000000000ED0 /* Sources */,
+				000000000EE0 /* Frameworks */,
+				000000000EF0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -794,26 +798,27 @@
 			);
 			name = RxSwift;
 			productName = RxSwift;
-			productReference = 000000000EA0 /* RxSwift.framework */;
+			productReference = 000000000EB0 /* RxSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0000000018D0 /* Pods-CommonPods-RxKingfisher */ = {
+		0000000018F0 /* Pods-RxKingfisher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0000000018E0 /* Build configuration list for PBXNativeTarget "Pods-CommonPods-RxKingfisher" */;
+			buildConfigurationList = 000000001900 /* Build configuration list for PBXNativeTarget "Pods-RxKingfisher" */;
 			buildPhases = (
-				000000001920 /* Sources */,
-				000000001930 /* Frameworks */,
-				0000000019B0 /* Headers */,
+				000000001940 /* Headers */,
+				000000001950 /* Sources */,
+				000000001960 /* Frameworks */,
+				000000001970 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				000000001A60 /* PBXTargetDependency */,
-				000000001A80 /* PBXTargetDependency */,
+				000000001A90 /* PBXTargetDependency */,
+				000000001AB0 /* PBXTargetDependency */,
 			);
-			name = "Pods-CommonPods-RxKingfisher";
-			productName = "Pods-CommonPods-RxKingfisher";
-			productReference = 000000001910 /* Pods_CommonPods_RxKingfisher.framework */;
+			name = "Pods-RxKingfisher";
+			productName = "Pods-RxKingfisher";
+			productReference = 000000001930 /* Pods_RxKingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -823,7 +828,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 000000000030 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -838,223 +843,247 @@
 			projectRoot = "";
 			targets = (
 				000000000BA0 /* Kingfisher */,
-				0000000018D0 /* Pods-CommonPods-RxKingfisher */,
-				000000000E60 /* RxSwift */,
+				0000000018F0 /* Pods-RxKingfisher */,
+				000000000E70 /* RxSwift */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		000000000C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000001970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		000000000BF0 /* Sources */ = {
+		000000000C00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000C40 /* AnimatedImageView.swift in Sources */,
-				000000000C50 /* Box.swift in Sources */,
-				000000000C60 /* CacheSerializer.swift in Sources */,
-				000000000C70 /* Filter.swift in Sources */,
-				000000000C80 /* FormatIndicatedCacheSerializer.swift in Sources */,
-				000000000C90 /* Image.swift in Sources */,
-				000000000CA0 /* ImageCache.swift in Sources */,
-				000000000CB0 /* ImageDownloader.swift in Sources */,
-				000000000CC0 /* ImageModifier.swift in Sources */,
-				000000000CD0 /* ImagePrefetcher.swift in Sources */,
-				000000000CE0 /* ImageProcessor.swift in Sources */,
-				000000000CF0 /* ImageTransition.swift in Sources */,
-				000000000D00 /* ImageView+Kingfisher.swift in Sources */,
-				000000000D10 /* Indicator.swift in Sources */,
-				000000000E50 /* Kingfisher-dummy.m in Sources */,
-				000000000D20 /* Kingfisher.swift in Sources */,
-				000000000D30 /* KingfisherManager.swift in Sources */,
-				000000000D40 /* KingfisherOptionsInfo.swift in Sources */,
-				000000000D50 /* Placeholder.swift in Sources */,
-				000000000D60 /* RequestModifier.swift in Sources */,
-				000000000D70 /* Resource.swift in Sources */,
-				000000000D80 /* String+MD5.swift in Sources */,
-				000000000D90 /* ThreadHelper.swift in Sources */,
-				000000000DA0 /* UIButton+Kingfisher.swift in Sources */,
+				000000000C60 /* AnimatedImageView.swift in Sources */,
+				000000000C70 /* Box.swift in Sources */,
+				000000000C80 /* CacheSerializer.swift in Sources */,
+				000000000C90 /* Filter.swift in Sources */,
+				000000000CA0 /* FormatIndicatedCacheSerializer.swift in Sources */,
+				000000000CB0 /* Image.swift in Sources */,
+				000000000CC0 /* ImageCache.swift in Sources */,
+				000000000CD0 /* ImageDownloader.swift in Sources */,
+				000000000CE0 /* ImageModifier.swift in Sources */,
+				000000000CF0 /* ImagePrefetcher.swift in Sources */,
+				000000000D00 /* ImageProcessor.swift in Sources */,
+				000000000D10 /* ImageTransition.swift in Sources */,
+				000000000D20 /* ImageView+Kingfisher.swift in Sources */,
+				000000000D30 /* Indicator.swift in Sources */,
+				000000000E60 /* Kingfisher-dummy.m in Sources */,
+				000000000D40 /* Kingfisher.swift in Sources */,
+				000000000D50 /* KingfisherManager.swift in Sources */,
+				000000000D60 /* KingfisherOptionsInfo.swift in Sources */,
+				000000000D70 /* Placeholder.swift in Sources */,
+				000000000D80 /* RequestModifier.swift in Sources */,
+				000000000D90 /* Resource.swift in Sources */,
+				000000000DA0 /* String+MD5.swift in Sources */,
+				000000000DB0 /* ThreadHelper.swift in Sources */,
+				000000000DC0 /* UIButton+Kingfisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000EB0 /* Sources */ = {
+		000000000ED0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0000000010E0 /* AddRef.swift in Sources */,
-				0000000010F0 /* Amb.swift in Sources */,
-				000000000F90 /* AnonymousDisposable.swift in Sources */,
-				000000001540 /* AnonymousObserver.swift in Sources */,
-				000000000EE0 /* AnyObserver.swift in Sources */,
-				000000001100 /* AsMaybe.swift in Sources */,
-				000000001110 /* AsSingle.swift in Sources */,
-				000000000F00 /* AsyncLock.swift in Sources */,
-				0000000016D0 /* AsyncSubject.swift in Sources */,
-				000000001080 /* Bag+Rx.swift in Sources */,
-				0000000017A0 /* Bag.swift in Sources */,
-				0000000016E0 /* BehaviorSubject.swift in Sources */,
-				000000000FA0 /* BinaryDisposable.swift in Sources */,
-				000000000FB0 /* BooleanDisposable.swift in Sources */,
-				000000001120 /* Buffer.swift in Sources */,
-				000000000EF0 /* Cancelable.swift in Sources */,
-				000000001130 /* Catch.swift in Sources */,
-				000000001140 /* CombineLatest+arity.swift in Sources */,
-				000000001150 /* CombineLatest+Collection.swift in Sources */,
-				000000001160 /* CombineLatest.swift in Sources */,
-				000000001730 /* Completable+AndThen.swift in Sources */,
-				000000001740 /* Completable.swift in Sources */,
-				000000000FC0 /* CompositeDisposable.swift in Sources */,
-				000000001170 /* Concat.swift in Sources */,
-				0000000015B0 /* ConcurrentDispatchQueueScheduler.swift in Sources */,
-				0000000015C0 /* ConcurrentMainScheduler.swift in Sources */,
-				000000000F60 /* ConnectableObservableType.swift in Sources */,
-				000000001180 /* Create.swift in Sources */,
-				0000000015D0 /* CurrentThreadScheduler.swift in Sources */,
-				000000001190 /* Debounce.swift in Sources */,
-				0000000011A0 /* Debug.swift in Sources */,
-				0000000011B0 /* DefaultIfEmpty.swift in Sources */,
-				0000000011C0 /* Deferred.swift in Sources */,
-				0000000011D0 /* Delay.swift in Sources */,
-				0000000011E0 /* DelaySubscription.swift in Sources */,
-				0000000011F0 /* Dematerialize.swift in Sources */,
-				000000000F70 /* Deprecated.swift in Sources */,
-				0000000017E0 /* DeprecationWarner.swift in Sources */,
-				0000000017F0 /* DispatchQueue+Extensions.swift in Sources */,
-				000000001600 /* DispatchQueueConfiguration.swift in Sources */,
-				000000000F80 /* Disposable.swift in Sources */,
-				000000000FD0 /* Disposables.swift in Sources */,
-				000000000FE0 /* DisposeBag.swift in Sources */,
-				000000000FF0 /* DisposeBase.swift in Sources */,
-				000000001200 /* DistinctUntilChanged.swift in Sources */,
-				000000001210 /* Do.swift in Sources */,
-				000000001220 /* ElementAt.swift in Sources */,
-				000000001230 /* Empty.swift in Sources */,
-				000000001240 /* Enumerated.swift in Sources */,
-				000000001250 /* Error.swift in Sources */,
-				000000001060 /* Errors.swift in Sources */,
-				000000001070 /* Event.swift in Sources */,
-				000000001260 /* Filter.swift in Sources */,
-				000000001270 /* First.swift in Sources */,
-				000000001280 /* Generate.swift in Sources */,
-				000000001290 /* GroupBy.swift in Sources */,
-				0000000010A0 /* GroupedObservable.swift in Sources */,
-				0000000015E0 /* HistoricalScheduler.swift in Sources */,
-				0000000015F0 /* HistoricalSchedulerTimeConverter.swift in Sources */,
-				0000000010B0 /* ImmediateSchedulerType.swift in Sources */,
-				0000000017B0 /* InfiniteSequence.swift in Sources */,
-				000000001610 /* InvocableScheduledItem.swift in Sources */,
-				000000001620 /* InvocableType.swift in Sources */,
-				0000000012A0 /* Just.swift in Sources */,
-				000000000F10 /* Lock.swift in Sources */,
-				000000000F20 /* LockOwnerType.swift in Sources */,
-				000000001650 /* MainScheduler.swift in Sources */,
-				0000000012B0 /* Map.swift in Sources */,
-				0000000012C0 /* Materialize.swift in Sources */,
-				000000001750 /* Maybe.swift in Sources */,
-				0000000012D0 /* Merge.swift in Sources */,
-				0000000012E0 /* Multicast.swift in Sources */,
-				0000000012F0 /* Never.swift in Sources */,
-				000000001000 /* NopDisposable.swift in Sources */,
-				0000000010C0 /* Observable.swift in Sources */,
-				0000000010D0 /* ObservableConvertibleType.swift in Sources */,
-				000000001520 /* ObservableType+Extensions.swift in Sources */,
-				000000001760 /* ObservableType+PrimitiveSequence.swift in Sources */,
-				000000001530 /* ObservableType.swift in Sources */,
-				000000001300 /* ObserveOn.swift in Sources */,
-				000000001550 /* ObserverBase.swift in Sources */,
-				000000001570 /* ObserverType.swift in Sources */,
-				000000001660 /* OperationQueueScheduler.swift in Sources */,
-				000000001310 /* Optional.swift in Sources */,
-				000000001800 /* Platform.Darwin.swift in Sources */,
-				000000001810 /* Platform.Linux.swift in Sources */,
-				000000001770 /* PrimitiveSequence+Zip+arity.swift in Sources */,
-				000000001780 /* PrimitiveSequence.swift in Sources */,
-				0000000017C0 /* PriorityQueue.swift in Sources */,
-				000000001320 /* Producer.swift in Sources */,
-				0000000016F0 /* PublishSubject.swift in Sources */,
-				0000000017D0 /* Queue.swift in Sources */,
-				000000001330 /* Range.swift in Sources */,
-				000000001580 /* Reactive.swift in Sources */,
-				000000001820 /* RecursiveLock.swift in Sources */,
-				000000001670 /* RecursiveScheduler.swift in Sources */,
-				000000001340 /* Reduce.swift in Sources */,
-				000000001010 /* RefCountDisposable.swift in Sources */,
-				000000001350 /* Repeat.swift in Sources */,
-				000000001700 /* ReplaySubject.swift in Sources */,
-				000000001360 /* RetryWhen.swift in Sources */,
-				000000001590 /* Rx.swift in Sources */,
-				0000000015A0 /* RxMutableBox.swift in Sources */,
-				0000000018C0 /* RxSwift-dummy.m in Sources */,
-				000000001370 /* Sample.swift in Sources */,
-				000000001380 /* Scan.swift in Sources */,
-				000000001020 /* ScheduledDisposable.swift in Sources */,
-				000000001630 /* ScheduledItem.swift in Sources */,
-				000000001640 /* ScheduledItemType.swift in Sources */,
-				000000001680 /* SchedulerServices+Emulation.swift in Sources */,
-				0000000016C0 /* SchedulerType.swift in Sources */,
-				000000001390 /* Sequence.swift in Sources */,
-				000000001690 /* SerialDispatchQueueScheduler.swift in Sources */,
-				000000001030 /* SerialDisposable.swift in Sources */,
-				0000000013A0 /* ShareReplayScope.swift in Sources */,
-				000000001790 /* Single.swift in Sources */,
-				000000001040 /* SingleAssignmentDisposable.swift in Sources */,
-				0000000013B0 /* SingleAsync.swift in Sources */,
-				0000000013C0 /* Sink.swift in Sources */,
-				0000000013D0 /* Skip.swift in Sources */,
-				0000000013E0 /* SkipUntil.swift in Sources */,
-				0000000013F0 /* SkipWhile.swift in Sources */,
-				000000001400 /* StartWith.swift in Sources */,
-				000000001090 /* String+Rx.swift in Sources */,
-				000000001710 /* SubjectType.swift in Sources */,
-				000000001410 /* SubscribeOn.swift in Sources */,
-				000000001050 /* SubscriptionDisposable.swift in Sources */,
-				000000001720 /* SwiftSupport.swift in Sources */,
-				000000001420 /* Switch.swift in Sources */,
-				000000001430 /* SwitchIfEmpty.swift in Sources */,
-				000000000F30 /* SynchronizedDisposeType.swift in Sources */,
-				000000000F40 /* SynchronizedOnType.swift in Sources */,
-				000000000F50 /* SynchronizedUnsubscribeType.swift in Sources */,
-				000000001560 /* TailRecursiveSink.swift in Sources */,
-				000000001440 /* Take.swift in Sources */,
-				000000001450 /* TakeLast.swift in Sources */,
-				000000001460 /* TakeUntil.swift in Sources */,
-				000000001470 /* TakeWhile.swift in Sources */,
-				000000001480 /* Throttle.swift in Sources */,
-				000000001490 /* Timeout.swift in Sources */,
-				0000000014A0 /* Timer.swift in Sources */,
-				0000000014B0 /* ToArray.swift in Sources */,
-				0000000014C0 /* Using.swift in Sources */,
-				0000000016A0 /* VirtualTimeConverterType.swift in Sources */,
-				0000000016B0 /* VirtualTimeScheduler.swift in Sources */,
-				0000000014D0 /* Window.swift in Sources */,
-				0000000014E0 /* WithLatestFrom.swift in Sources */,
-				0000000014F0 /* Zip+arity.swift in Sources */,
-				000000001500 /* Zip+Collection.swift in Sources */,
-				000000001510 /* Zip.swift in Sources */,
+				000000001110 /* AddRef.swift in Sources */,
+				000000001120 /* Amb.swift in Sources */,
+				000000000FC0 /* AnonymousDisposable.swift in Sources */,
+				000000001570 /* AnonymousObserver.swift in Sources */,
+				000000000F10 /* AnyObserver.swift in Sources */,
+				000000001130 /* AsMaybe.swift in Sources */,
+				000000001140 /* AsSingle.swift in Sources */,
+				000000000F30 /* AsyncLock.swift in Sources */,
+				000000001700 /* AsyncSubject.swift in Sources */,
+				0000000010B0 /* Bag+Rx.swift in Sources */,
+				0000000017D0 /* Bag.swift in Sources */,
+				000000001710 /* BehaviorSubject.swift in Sources */,
+				000000000FD0 /* BinaryDisposable.swift in Sources */,
+				000000000FE0 /* BooleanDisposable.swift in Sources */,
+				000000001150 /* Buffer.swift in Sources */,
+				000000000F20 /* Cancelable.swift in Sources */,
+				000000001160 /* Catch.swift in Sources */,
+				000000001170 /* CombineLatest+arity.swift in Sources */,
+				000000001180 /* CombineLatest+Collection.swift in Sources */,
+				000000001190 /* CombineLatest.swift in Sources */,
+				000000001760 /* Completable+AndThen.swift in Sources */,
+				000000001770 /* Completable.swift in Sources */,
+				000000000FF0 /* CompositeDisposable.swift in Sources */,
+				0000000011A0 /* Concat.swift in Sources */,
+				0000000015E0 /* ConcurrentDispatchQueueScheduler.swift in Sources */,
+				0000000015F0 /* ConcurrentMainScheduler.swift in Sources */,
+				000000000F90 /* ConnectableObservableType.swift in Sources */,
+				0000000011B0 /* Create.swift in Sources */,
+				000000001600 /* CurrentThreadScheduler.swift in Sources */,
+				0000000011C0 /* Debounce.swift in Sources */,
+				0000000011D0 /* Debug.swift in Sources */,
+				0000000011E0 /* DefaultIfEmpty.swift in Sources */,
+				0000000011F0 /* Deferred.swift in Sources */,
+				000000001200 /* Delay.swift in Sources */,
+				000000001210 /* DelaySubscription.swift in Sources */,
+				000000001220 /* Dematerialize.swift in Sources */,
+				000000000FA0 /* Deprecated.swift in Sources */,
+				000000001810 /* DeprecationWarner.swift in Sources */,
+				000000001820 /* DispatchQueue+Extensions.swift in Sources */,
+				000000001630 /* DispatchQueueConfiguration.swift in Sources */,
+				000000000FB0 /* Disposable.swift in Sources */,
+				000000001000 /* Disposables.swift in Sources */,
+				000000001010 /* DisposeBag.swift in Sources */,
+				000000001020 /* DisposeBase.swift in Sources */,
+				000000001230 /* DistinctUntilChanged.swift in Sources */,
+				000000001240 /* Do.swift in Sources */,
+				000000001250 /* ElementAt.swift in Sources */,
+				000000001260 /* Empty.swift in Sources */,
+				000000001270 /* Enumerated.swift in Sources */,
+				000000001280 /* Error.swift in Sources */,
+				000000001090 /* Errors.swift in Sources */,
+				0000000010A0 /* Event.swift in Sources */,
+				000000001290 /* Filter.swift in Sources */,
+				0000000012A0 /* First.swift in Sources */,
+				0000000012B0 /* Generate.swift in Sources */,
+				0000000012C0 /* GroupBy.swift in Sources */,
+				0000000010D0 /* GroupedObservable.swift in Sources */,
+				000000001610 /* HistoricalScheduler.swift in Sources */,
+				000000001620 /* HistoricalSchedulerTimeConverter.swift in Sources */,
+				0000000010E0 /* ImmediateSchedulerType.swift in Sources */,
+				0000000017E0 /* InfiniteSequence.swift in Sources */,
+				000000001640 /* InvocableScheduledItem.swift in Sources */,
+				000000001650 /* InvocableType.swift in Sources */,
+				0000000012D0 /* Just.swift in Sources */,
+				000000000F40 /* Lock.swift in Sources */,
+				000000000F50 /* LockOwnerType.swift in Sources */,
+				000000001680 /* MainScheduler.swift in Sources */,
+				0000000012E0 /* Map.swift in Sources */,
+				0000000012F0 /* Materialize.swift in Sources */,
+				000000001780 /* Maybe.swift in Sources */,
+				000000001300 /* Merge.swift in Sources */,
+				000000001310 /* Multicast.swift in Sources */,
+				000000001320 /* Never.swift in Sources */,
+				000000001030 /* NopDisposable.swift in Sources */,
+				0000000010F0 /* Observable.swift in Sources */,
+				000000001100 /* ObservableConvertibleType.swift in Sources */,
+				000000001550 /* ObservableType+Extensions.swift in Sources */,
+				000000001790 /* ObservableType+PrimitiveSequence.swift in Sources */,
+				000000001560 /* ObservableType.swift in Sources */,
+				000000001330 /* ObserveOn.swift in Sources */,
+				000000001580 /* ObserverBase.swift in Sources */,
+				0000000015A0 /* ObserverType.swift in Sources */,
+				000000001690 /* OperationQueueScheduler.swift in Sources */,
+				000000001340 /* Optional.swift in Sources */,
+				000000001830 /* Platform.Darwin.swift in Sources */,
+				000000001840 /* Platform.Linux.swift in Sources */,
+				0000000017A0 /* PrimitiveSequence+Zip+arity.swift in Sources */,
+				0000000017B0 /* PrimitiveSequence.swift in Sources */,
+				0000000017F0 /* PriorityQueue.swift in Sources */,
+				000000001350 /* Producer.swift in Sources */,
+				000000001720 /* PublishSubject.swift in Sources */,
+				000000001800 /* Queue.swift in Sources */,
+				000000001360 /* Range.swift in Sources */,
+				0000000015B0 /* Reactive.swift in Sources */,
+				000000001850 /* RecursiveLock.swift in Sources */,
+				0000000016A0 /* RecursiveScheduler.swift in Sources */,
+				000000001370 /* Reduce.swift in Sources */,
+				000000001040 /* RefCountDisposable.swift in Sources */,
+				000000001380 /* Repeat.swift in Sources */,
+				000000001730 /* ReplaySubject.swift in Sources */,
+				000000001390 /* RetryWhen.swift in Sources */,
+				0000000015C0 /* Rx.swift in Sources */,
+				0000000015D0 /* RxMutableBox.swift in Sources */,
+				0000000018E0 /* RxSwift-dummy.m in Sources */,
+				0000000013A0 /* Sample.swift in Sources */,
+				0000000013B0 /* Scan.swift in Sources */,
+				000000001050 /* ScheduledDisposable.swift in Sources */,
+				000000001660 /* ScheduledItem.swift in Sources */,
+				000000001670 /* ScheduledItemType.swift in Sources */,
+				0000000016B0 /* SchedulerServices+Emulation.swift in Sources */,
+				0000000016F0 /* SchedulerType.swift in Sources */,
+				0000000013C0 /* Sequence.swift in Sources */,
+				0000000016C0 /* SerialDispatchQueueScheduler.swift in Sources */,
+				000000001060 /* SerialDisposable.swift in Sources */,
+				0000000013D0 /* ShareReplayScope.swift in Sources */,
+				0000000017C0 /* Single.swift in Sources */,
+				000000001070 /* SingleAssignmentDisposable.swift in Sources */,
+				0000000013E0 /* SingleAsync.swift in Sources */,
+				0000000013F0 /* Sink.swift in Sources */,
+				000000001400 /* Skip.swift in Sources */,
+				000000001410 /* SkipUntil.swift in Sources */,
+				000000001420 /* SkipWhile.swift in Sources */,
+				000000001430 /* StartWith.swift in Sources */,
+				0000000010C0 /* String+Rx.swift in Sources */,
+				000000001740 /* SubjectType.swift in Sources */,
+				000000001440 /* SubscribeOn.swift in Sources */,
+				000000001080 /* SubscriptionDisposable.swift in Sources */,
+				000000001750 /* SwiftSupport.swift in Sources */,
+				000000001450 /* Switch.swift in Sources */,
+				000000001460 /* SwitchIfEmpty.swift in Sources */,
+				000000000F60 /* SynchronizedDisposeType.swift in Sources */,
+				000000000F70 /* SynchronizedOnType.swift in Sources */,
+				000000000F80 /* SynchronizedUnsubscribeType.swift in Sources */,
+				000000001590 /* TailRecursiveSink.swift in Sources */,
+				000000001470 /* Take.swift in Sources */,
+				000000001480 /* TakeLast.swift in Sources */,
+				000000001490 /* TakeUntil.swift in Sources */,
+				0000000014A0 /* TakeWhile.swift in Sources */,
+				0000000014B0 /* Throttle.swift in Sources */,
+				0000000014C0 /* Timeout.swift in Sources */,
+				0000000014D0 /* Timer.swift in Sources */,
+				0000000014E0 /* ToArray.swift in Sources */,
+				0000000014F0 /* Using.swift in Sources */,
+				0000000016D0 /* VirtualTimeConverterType.swift in Sources */,
+				0000000016E0 /* VirtualTimeScheduler.swift in Sources */,
+				000000001500 /* Window.swift in Sources */,
+				000000001510 /* WithLatestFrom.swift in Sources */,
+				000000001520 /* Zip+arity.swift in Sources */,
+				000000001530 /* Zip+Collection.swift in Sources */,
+				000000001540 /* Zip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000001920 /* Sources */ = {
+		000000001950 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000001A20 /* Pods-CommonPods-RxKingfisher-dummy.m in Sources */,
+				000000001A50 /* Pods-RxKingfisher-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		000000001A60 /* PBXTargetDependency */ = {
+		000000001A90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = 000000000BA0 /* Kingfisher */;
-			targetProxy = 000000001A50 /* PBXContainerItemProxy */;
+			targetProxy = 000000001A80 /* PBXContainerItemProxy */;
 		};
-		000000001A80 /* PBXTargetDependency */ = {
+		000000001AB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxSwift;
-			target = 000000000E60 /* RxSwift */;
-			targetProxy = 000000001A70 /* PBXContainerItemProxy */;
+			target = 000000000E70 /* RxSwift */;
+			targetProxy = 000000001AA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1113,7 +1142,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1174,16 +1204,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 		000000000BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000DE0 /* Kingfisher.xcconfig */;
+			baseConfigurationReference = 000000000DF0 /* Kingfisher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1198,14 +1228,19 @@
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
 				PRODUCT_MODULE_NAME = Kingfisher;
 				PRODUCT_NAME = Kingfisher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1216,7 +1251,7 @@
 		};
 		000000000BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000DE0 /* Kingfisher.xcconfig */;
+			baseConfigurationReference = 000000000DF0 /* Kingfisher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1231,7 +1266,11 @@
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
 				PRODUCT_MODULE_NAME = Kingfisher;
 				PRODUCT_NAME = Kingfisher;
@@ -1246,9 +1285,9 @@
 			};
 			name = Debug;
 		};
-		000000000E80 /* Release */ = {
+		000000000E90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000001840 /* RxSwift.xcconfig */;
+			baseConfigurationReference = 000000001870 /* RxSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1263,14 +1302,19 @@
 				INFOPLIST_FILE = "Target Support Files/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
 				PRODUCT_MODULE_NAME = RxSwift;
 				PRODUCT_NAME = RxSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1279,9 +1323,9 @@
 			};
 			name = Release;
 		};
-		000000000E90 /* Debug */ = {
+		000000000EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000001840 /* RxSwift.xcconfig */;
+			baseConfigurationReference = 000000001870 /* RxSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1296,7 +1340,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
 				PRODUCT_MODULE_NAME = RxSwift;
 				PRODUCT_NAME = RxSwift;
@@ -1311,9 +1359,9 @@
 			};
 			name = Debug;
 		};
-		0000000018F0 /* Release */ = {
+		000000001910 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000001960 /* Pods-CommonPods-RxKingfisher.release.xcconfig */;
+			baseConfigurationReference = 0000000019A0 /* Pods-RxKingfisher.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1325,12 +1373,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CommonPods-RxKingfisher/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxKingfisher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1338,7 +1390,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1346,9 +1399,9 @@
 			};
 			name = Release;
 		};
-		000000001900 /* Debug */ = {
+		000000001920 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000001970 /* Pods-CommonPods-RxKingfisher.debug.xcconfig */;
+			baseConfigurationReference = 0000000019B0 /* Pods-RxKingfisher.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1360,12 +1413,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CommonPods-RxKingfisher/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxKingfisher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1402,20 +1459,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000000000E70 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
+		000000000E80 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000E90 /* Debug */,
-				000000000E80 /* Release */,
+				000000000EA0 /* Debug */,
+				000000000E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0000000018E0 /* Build configuration list for PBXNativeTarget "Pods-CommonPods-RxKingfisher" */ = {
+		000000001900 /* Build configuration list for PBXNativeTarget "Pods-RxKingfisher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000001900 /* Debug */,
-				0000000018F0 /* Release */,
+				000000001920 /* Debug */,
+				000000001910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CommonPods_RxKingfisherVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CommonPods_RxKingfisherVersionString[];
+FOUNDATION_EXPORT double Pods_RxKingfisherVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RxKingfisherVersionString[];
 

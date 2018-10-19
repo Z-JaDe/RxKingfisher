@@ -8,17 +8,11 @@ use_frameworks!
 
 install! 'cocoapods', :deterministic_uuids => false
 
-abstract_target 'CommonPods' do
-    
+target:RxKingfisher do
     pod 'RxSwift', :git => 'https://github.com/ReactiveX/RxSwift'
     
     pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher'
-
-    target:RxKingfisher do
-
-    end
 end
-
 
 
 
