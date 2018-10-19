@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '8.0'
     s.frameworks  = "Foundation"
-    s.swift_version = "4.0"
+    s.swift_version = "4.2"
     
     s.default_subspec = "RxSwift"
 
