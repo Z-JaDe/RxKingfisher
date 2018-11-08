@@ -18,7 +18,8 @@ extension Kingfisher where Base: ChainCompatible,
             let chain = self.base.chain()
             let completionHandler = chain.completionHandler
             if let resource = resource {
-                let closure = self._completionHandler(observer: observer, { (image, error, cacheType, url) in
+                let closure = self._completionHandler(observer: observer, { [weak chain] (image, error, cacheType, url) in
+                    guard let chain = chain else { return }
                     observer.onNext((chain.view,image))
                 })
                 let task:RetrieveImageTask = self.completionHandler(closure)
@@ -44,8 +45,9 @@ extension Kingfisher where Base: ChainCompatible,
             let chain = self.base.chain()
             let completionHandler = chain.completionHandler
             if let resource = resource {
-                let closure = self._completionHandler(observer: observer, { (image, error, cacheType, url) in
-                    observer.onNext((chain.view, image,state))
+                let closure = self._completionHandler(observer: observer, { [weak chain] (image, error, cacheType, url) in
+                    guard let chain = chain else { return }
+                    observer.onNext((chain.view, image, state))
                 })
                 let task:RetrieveImageTask = self.completionHandler(closure)
                     .setImage(resource, for: state)
@@ -95,7 +97,6 @@ extension Kingfisher where Base: ChainCompatible {
             }
             old?(image,error,cacheType,url)
             onNext(image,error,cacheType,url)
-            
         }
     }
 }
