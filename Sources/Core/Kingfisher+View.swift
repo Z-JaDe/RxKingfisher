@@ -10,7 +10,7 @@ import Foundation
 import Kingfisher
 
 extension Kingfisher where Base: ImageView {
-    func setIndicatorType(_ indicatorType:IndicatorType) -> Self {
+    func setIndicatorType(_ indicatorType: IndicatorType) -> Self {
         self.indicatorType = indicatorType
         return self
     }

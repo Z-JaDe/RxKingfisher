@@ -10,27 +10,27 @@ import Foundation
 import Kingfisher
 
 public extension Kingfisher where Base: ChainCompatible {
-    public func targetCache(_ value:ImageCache) -> Kingfisher<Base.ChainType> {
+    public func targetCache(_ value: ImageCache) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.targetCache(value))
         return chain.kf
     }
-    public func originalCache(_ value:ImageCache) -> Kingfisher<Base.ChainType> {
+    public func originalCache(_ value: ImageCache) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.originalCache(value))
         return chain.kf
     }
-    public func downloader(_ value:ImageDownloader) -> Kingfisher<Base.ChainType> {
+    public func downloader(_ value: ImageDownloader) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.downloader(value))
         return chain.kf
     }
-    public func transition(_ value:ImageTransition) -> Kingfisher<Base.ChainType> {
+    public func transition(_ value: ImageTransition) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.transition(value))
         return chain.kf
     }
-    public func downloadPriority(_ value:Float) -> Kingfisher<Base.ChainType> {
+    public func downloadPriority(_ value: Float) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.downloadPriority(value))
         return chain.kf
@@ -70,12 +70,12 @@ public extension Kingfisher where Base: ChainCompatible {
         chain.addOption(.backgroundDecode)
         return chain.kf
     }
-    public func callbackDispatchQueue(_ value:DispatchQueue) -> Kingfisher<Base.ChainType> {
+    public func callbackDispatchQueue(_ value: DispatchQueue) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.callbackDispatchQueue(value))
         return chain.kf
     }
-    public func scaleFactor(_ value:CGFloat) -> Kingfisher<Base.ChainType> {
+    public func scaleFactor(_ value: CGFloat) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.scaleFactor(value))
         return chain.kf
@@ -85,22 +85,22 @@ public extension Kingfisher where Base: ChainCompatible {
         chain.addOption(.preloadAllAnimationData)
         return chain.kf
     }
-    public func requestModifier(_ value:ImageDownloadRequestModifier) -> Kingfisher<Base.ChainType> {
+    public func requestModifier(_ value: ImageDownloadRequestModifier) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.requestModifier(value))
         return chain.kf
     }
-    public func processor(_ value:ImageProcessor) -> Kingfisher<Base.ChainType> {
+    public func processor(_ value: ImageProcessor) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.processor(value))
         return chain.kf
     }
-    public func cacheSerializer(_ value:CacheSerializer) -> Kingfisher<Base.ChainType> {
+    public func cacheSerializer(_ value: CacheSerializer) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.cacheSerializer(value))
         return chain.kf
     }
-    public func imageModifier(_ value:ImageModifier) -> Kingfisher<Base.ChainType> {
+    public func imageModifier(_ value: ImageModifier) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.addOption(.imageModifier(value))
         return chain.kf
@@ -120,7 +120,7 @@ public extension Kingfisher where Base: ChainCompatible {
         chain.addOption(.cacheOriginalImage)
         return chain.kf
     }
-    
+
     public func completionHandler(_ value:@escaping CompletionHandler) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.completionHandler = value
@@ -134,15 +134,15 @@ public extension Kingfisher where Base: ChainCompatible {
 }
 
 public extension Kingfisher where Base: ChainCompatible,
-Base.ChainType:ViewChain<ImageView> {
-    public func placeholder(_ value:Placeholder) -> Kingfisher<Base.ChainType> {
+Base.ChainType: ViewChain<ImageView> {
+    public func placeholder(_ value: Placeholder) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.placeholder = value
         return chain.kf
     }
-    
+
     @discardableResult
-    public func setImage(_ resource:Resource?) -> RetrieveImageTask {
+    public func setImage(_ resource: Resource?) -> RetrieveImageTask {
         let chain = base.chain()
         return chain.view.kf.setImage(
             with: resource,
@@ -153,15 +153,15 @@ Base.ChainType:ViewChain<ImageView> {
     }
 }
 public extension Kingfisher where Base: ChainCompatible,
-    Base.ChainType:ViewChain<Button> {
-    public func placeholder(_ value:UIImage) -> Kingfisher<Base.ChainType> {
+    Base.ChainType: ViewChain<Button> {
+    public func placeholder(_ value: UIImage) -> Kingfisher<Base.ChainType> {
         let chain = base.chain()
         chain.placeholder = value
         return chain.kf
     }
-    
+
     @discardableResult
-    public func setImage(_ resource:Resource?, for state: UIControl.State) -> RetrieveImageTask {
+    public func setImage(_ resource: Resource?, for state: UIControl.State) -> RetrieveImageTask {
         let chain = base.chain()
         return chain.view.kf.setImage(
             with: resource, for: state,
@@ -172,8 +172,8 @@ public extension Kingfisher where Base: ChainCompatible,
     }
 }
 public extension Kingfisher where Base: ChainCompatible,
-    Base.ChainType:ManagerChain {
-    
+    Base.ChainType: ManagerChain {
+
     @discardableResult
     public func retrieveImage(_ resource: Resource) -> RetrieveImageTask {
         let chain = base.chain()
@@ -184,4 +184,3 @@ public extension Kingfisher where Base: ChainCompatible,
             completionHandler: chain.completionHandler)
     }
 }
-

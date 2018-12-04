@@ -10,15 +10,15 @@ import Foundation
 import Kingfisher
 
 protocol ViewCompatible {
-    associatedtype _ViewType:UIView
-    var view:_ViewType {get}
+    associatedtype _ViewType: UIView
+    var view: _ViewType {get}
 }
-extension ViewChain:ViewCompatible {}
+extension ViewChain: ViewCompatible {}
 
-extension ViewCompatible where Self:UIView {
-    var view:Self {
+extension ViewCompatible where Self: UIView {
+    var view: Self {
         return self
     }
 }
-extension ImageView:ViewCompatible {}
-extension Button:ViewCompatible {}
+extension ImageView: ViewCompatible {}
+extension Button: ViewCompatible {}

@@ -12,15 +12,15 @@ import Kingfisher
 public typealias DownloadManager = KingfisherManager
 
 protocol ManagerCompatible {
-    associatedtype _ManagerType:DownloadManager
-    var manager:_ManagerType {get}
+    associatedtype _ManagerType: DownloadManager
+    var manager: _ManagerType {get}
 }
-extension ManagerChain:ManagerCompatible {}
+extension ManagerChain: ManagerCompatible {}
 
-extension ManagerCompatible where Self:DownloadManager {
-    var manager:Self {
+extension ManagerCompatible where Self: DownloadManager {
+    var manager: Self {
         return self
     }
 }
-extension DownloadManager:ManagerCompatible {}
-extension DownloadManager:KingfisherCompatible {}
+extension DownloadManager: ManagerCompatible {}
+extension DownloadManager: KingfisherCompatible {}
