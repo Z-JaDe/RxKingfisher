@@ -1,5 +1,7 @@
 # RxKingfisher
 
+不支持Kingfisher5.0以后的了，懒的搞也没必要。
+
 Kingfisher的一些扩展
 ```swift
 
