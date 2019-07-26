@@ -1,5 +1,9 @@
 # RxKingfisher
 
+[![CI Status](https://travis-ci.org/Z-JaDe/RxKingfisher.svg?branch=master)](https://travis-ci.org/Z-JaDe/RxKingfisher)
+![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat)
+![Swift version](https://img.shields.io/badge/swift-5.0-orange.svg)
+
 不支持Kingfisher5.0以后的了，懒的搞也没必要。
 
 Kingfisher的一些扩展
