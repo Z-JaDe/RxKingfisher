@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18262E3D22EAB77600400752 /* RxKingfisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18262E3C22EAB77600400752 /* RxKingfisherTests.swift */; };
 		C35D77C29C96B19FCE0F8724 /* Pods_RxKingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E3CB0DCF39BD331E6E1C89 /* Pods_RxKingfisher.framework */; };
 		C989A313213FBFE300E64AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A312213FBFE300E64AD8 /* AppDelegate.swift */; };
 		C989A315213FBFE300E64AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A314213FBFE300E64AD8 /* ViewController.swift */; };
@@ -23,10 +24,23 @@
 		C989A34C2140315D00E64AD8 /* ManagerCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989A34B2140315D00E64AD8 /* ManagerCompatible.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		18262E3F22EAB77600400752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C989A307213FBFE300E64AD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C989A30E213FBFE300E64AD8;
+			remoteInfo = RxKingfisher;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		08AE079EA81D2C2B4BB938B2 /* Pods-RxKingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxKingfisher.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher.release.xcconfig"; sourceTree = "<group>"; };
 		0EF9D05BE5E2C2708E553937 /* Pods-RxKingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxKingfisher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher.debug.xcconfig"; sourceTree = "<group>"; };
 		1681D9E02741D98D54EF77D5 /* Pods-CommonPods-RxKingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-RxKingfisher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher.debug.xcconfig"; sourceTree = "<group>"; };
+		18262E3A22EAB77600400752 /* RxKingfisherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxKingfisherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18262E3C22EAB77600400752 /* RxKingfisherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxKingfisherTests.swift; sourceTree = "<group>"; };
+		18262E3E22EAB77600400752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DBD3ABD3FBCB5FEDDDFE671 /* Pods-CommonPods-RxKingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-RxKingfisher.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPods-RxKingfisher/Pods-CommonPods-RxKingfisher.release.xcconfig"; sourceTree = "<group>"; };
 		4BFAE9335B3A9C2F9489D9F7 /* Pods_CommonPods_RxKingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_RxKingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E3CB0DCF39BD331E6E1C89 /* Pods_RxKingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxKingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +62,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		18262E3722EAB77600400752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C989A30C213FBFE300E64AD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18262E3B22EAB77600400752 /* RxKingfisherTests */ = {
+			isa = PBXGroup;
+			children = (
+				18262E3C22EAB77600400752 /* RxKingfisherTests.swift */,
+				18262E3E22EAB77600400752 /* Info.plist */,
+			);
+			path = RxKingfisherTests;
+			sourceTree = "<group>";
+		};
 		7D9F4826DD4CC98F069B475E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +106,7 @@
 				C989A33F213FFEC400E64AD8 /* Rx+Kingfisher.podspec */,
 				C989A332213FC11C00E64AD8 /* Sources */,
 				C989A311213FBFE300E64AD8 /* RxKingfisher */,
+				18262E3B22EAB77600400752 /* RxKingfisherTests */,
 				C989A310213FBFE300E64AD8 /* Products */,
 				7D9F4826DD4CC98F069B475E /* Pods */,
 				D5785D06668ECB1BE931D552 /* Frameworks */,
@@ -86,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				C989A30F213FBFE300E64AD8 /* RxKingfisher.app */,
+				18262E3A22EAB77600400752 /* RxKingfisherTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +177,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		18262E3922EAB77600400752 /* RxKingfisherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18262E4322EAB77600400752 /* Build configuration list for PBXNativeTarget "RxKingfisherTests" */;
+			buildPhases = (
+				18262E3622EAB77600400752 /* Sources */,
+				18262E3722EAB77600400752 /* Frameworks */,
+				18262E3822EAB77600400752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18262E4022EAB77600400752 /* PBXTargetDependency */,
+			);
+			name = RxKingfisherTests;
+			productName = RxKingfisherTests;
+			productReference = 18262E3A22EAB77600400752 /* RxKingfisherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C989A30E213FBFE300E64AD8 /* RxKingfisher */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C989A32C213FBFE600E64AD8 /* Build configuration list for PBXNativeTarget "RxKingfisher" */;
@@ -170,10 +220,14 @@
 		C989A307213FBFE300E64AD8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = ZJaDe;
 				TargetAttributes = {
+					18262E3922EAB77600400752 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C989A30E213FBFE300E64AD8;
+					};
 					C989A30E213FBFE300E64AD8 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -193,11 +247,19 @@
 			projectRoot = "";
 			targets = (
 				C989A30E213FBFE300E64AD8 /* RxKingfisher */,
+				18262E3922EAB77600400752 /* RxKingfisherTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		18262E3822EAB77600400752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C989A30D213FBFE300E64AD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,24 +297,29 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxKingfisher/Pods-RxKingfisher-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		18262E3622EAB77600400752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18262E3D22EAB77600400752 /* RxKingfisherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C989A30B213FBFE300E64AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +337,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18262E4022EAB77600400752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C989A30E213FBFE300E64AD8 /* RxKingfisher */;
+			targetProxy = 18262E3F22EAB77600400752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C989A316213FBFE300E64AD8 /* Main.storyboard */ = {
@@ -291,6 +366,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		18262E4122EAB77600400752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxKingfisherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjade.RxKingfisherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxKingfisher.app/RxKingfisher";
+			};
+			name = Debug;
+		};
+		18262E4222EAB77600400752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxKingfisherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjade.RxKingfisherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxKingfisher.app/RxKingfisher";
+			};
+			name = Release;
+		};
 		C989A32A213FBFE600E64AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,6 +466,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -401,6 +520,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -411,7 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				DEVELOPMENT_TEAM = 553C2VE52E;
 				INFOPLIST_FILE = RxKingfisher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -420,8 +540,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjade.RxKingfisher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -431,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				DEVELOPMENT_TEAM = 553C2VE52E;
 				INFOPLIST_FILE = RxKingfisher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,14 +560,23 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjade.RxKingfisher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18262E4322EAB77600400752 /* Build configuration list for PBXNativeTarget "RxKingfisherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18262E4122EAB77600400752 /* Debug */,
+				18262E4222EAB77600400752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C989A30A213FBFE300E64AD8 /* Build configuration list for PBXProject "RxKingfisher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
